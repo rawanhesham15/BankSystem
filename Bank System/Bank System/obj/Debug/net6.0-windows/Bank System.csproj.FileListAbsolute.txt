@@ -1,0 +1,21 @@
+E:\vs projects\Bank System\Bank System\bin\Debug\net6.0-windows\Bank System.exe
+E:\vs projects\Bank System\Bank System\bin\Debug\net6.0-windows\Bank System.deps.json
+E:\vs projects\Bank System\Bank System\bin\Debug\net6.0-windows\Bank System.runtimeconfig.json
+E:\vs projects\Bank System\Bank System\bin\Debug\net6.0-windows\Bank System.dll
+E:\vs projects\Bank System\Bank System\bin\Debug\net6.0-windows\Bank System.pdb
+E:\vs projects\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.csproj.AssemblyReference.cache
+E:\vs projects\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.Login.resources
+E:\vs projects\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.MainMenu.resources
+E:\vs projects\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.Properties.Resources.resources
+E:\vs projects\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.Splash.resources
+E:\vs projects\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.csproj.GenerateResource.cache
+E:\vs projects\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.GeneratedMSBuildEditorConfig.editorconfig
+E:\vs projects\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.AssemblyInfoInputs.cache
+E:\vs projects\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.AssemblyInfo.cs
+E:\vs projects\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.csproj.CoreCompileInputs.cache
+E:\vs projects\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.dll
+E:\vs projects\Bank System\Bank System\obj\Debug\net6.0-windows\refint\Bank System.dll
+E:\vs projects\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.pdb
+E:\vs projects\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.genruntimeconfig.cache
+E:\vs projects\Bank System\Bank System\obj\Debug\net6.0-windows\ref\Bank System.dll
+E:\vs projects\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.addCustomer.resources
