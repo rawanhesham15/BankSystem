@@ -29,218 +29,217 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddBranch));
-            button3 = new Button();
-            button2 = new Button();
-            button1 = new Button();
-            label8 = new Label();
-            label7 = new Label();
-            textBox6 = new TextBox();
-            label6 = new Label();
-            textBox4 = new TextBox();
-            textBox3 = new TextBox();
-            label1 = new Label();
-            textBox1 = new TextBox();
-            pictureBox1 = new PictureBox();
-            pictureBox2 = new PictureBox();
-            label2 = new Label();
-            panel1 = new Panel();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            SuspendLayout();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.SuspendLayout();
             // 
             // button3
             // 
-            button3.BackColor = SystemColors.ButtonHighlight;
-            button3.Font = new Font("Britannic Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button3.ForeColor = SystemColors.ActiveCaptionText;
-            button3.Location = new Point(531, 345);
-            button3.Name = "button3";
-            button3.Size = new Size(123, 32);
-            button3.TabIndex = 62;
-            button3.Text = "Cancel";
-            button3.UseVisualStyleBackColor = false;
-            button3.Click += button3_Click;
+            this.button3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button3.Font = new System.Drawing.Font("Britannic Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button3.Location = new System.Drawing.Point(607, 460);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(141, 43);
+            this.button3.TabIndex = 62;
+            this.button3.Text = "Cancel";
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
-            button2.BackColor = SystemColors.ButtonHighlight;
-            button2.Font = new Font("Britannic Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button2.ForeColor = SystemColors.ActiveCaptionText;
-            button2.Location = new Point(359, 345);
-            button2.Name = "button2";
-            button2.Size = new Size(123, 32);
-            button2.TabIndex = 61;
-            button2.Text = "Edit";
-            button2.UseVisualStyleBackColor = false;
-            button2.Click += button2_Click;
+            this.button2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button2.Font = new System.Drawing.Font("Britannic Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button2.Location = new System.Drawing.Point(410, 460);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(141, 43);
+            this.button2.TabIndex = 61;
+            this.button2.Text = "Edit";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // button1
             // 
-            button1.BackColor = SystemColors.ButtonHighlight;
-            button1.Font = new Font("Britannic Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.ForeColor = SystemColors.ActiveCaptionText;
-            button1.Location = new Point(190, 345);
-            button1.Name = "button1";
-            button1.Size = new Size(123, 32);
-            button1.TabIndex = 60;
-            button1.Text = "Add";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            this.button1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Font = new System.Drawing.Font("Britannic Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button1.Location = new System.Drawing.Point(217, 460);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(141, 43);
+            this.button1.TabIndex = 60;
+            this.button1.Text = "Add";
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // label8
             // 
-            label8.AutoSize = true;
-            label8.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            label8.ForeColor = SystemColors.ActiveCaptionText;
-            label8.Location = new Point(144, 231);
-            label8.Name = "label8";
-            label8.Size = new Size(52, 27);
-            label8.TabIndex = 59;
-            label8.Text = "City";
-            label8.Click += label8_Click;
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Britannic Bold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label8.Location = new System.Drawing.Point(165, 308);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(65, 33);
+            this.label8.TabIndex = 59;
+            this.label8.Text = "City";
             // 
             // label7
             // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            label7.ForeColor = SystemColors.ActiveCaptionText;
-            label7.Location = new Point(481, 144);
-            label7.Name = "label7";
-            label7.Size = new Size(75, 27);
-            label7.TabIndex = 58;
-            label7.Text = "Street";
-            label7.Click += label7_Click;
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Britannic Bold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label7.Location = new System.Drawing.Point(550, 192);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(94, 33);
+            this.label7.TabIndex = 58;
+            this.label7.Text = "Street";
             // 
             // textBox6
             // 
-            textBox6.Location = new Point(481, 174);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(248, 23);
-            textBox6.TabIndex = 57;
-            textBox6.TextChanged += textBox6_TextChanged;
+            this.textBox6.Location = new System.Drawing.Point(550, 232);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(283, 27);
+            this.textBox6.TabIndex = 57;
             // 
             // label6
             // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.ForeColor = SystemColors.ActiveCaptionText;
-            label6.Location = new Point(481, 231);
-            label6.Name = "label6";
-            label6.Size = new Size(192, 27);
-            label6.TabIndex = 56;
-            label6.Text = "Building Number";
-            label6.Click += label6_Click;
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Britannic Bold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label6.Location = new System.Drawing.Point(550, 308);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(237, 33);
+            this.label6.TabIndex = 56;
+            this.label6.Text = "Building Number";
             // 
             // textBox4
             // 
-            textBox4.Location = new Point(481, 261);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(248, 23);
-            textBox4.TabIndex = 55;
-            textBox4.TextChanged += textBox4_TextChanged;
+            this.textBox4.Location = new System.Drawing.Point(550, 348);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(283, 27);
+            this.textBox4.TabIndex = 55;
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(144, 261);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(248, 23);
-            textBox3.TabIndex = 54;
-            textBox3.TextChanged += textBox3_TextChanged;
+            this.textBox3.Location = new System.Drawing.Point(165, 348);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(283, 27);
+            this.textBox3.TabIndex = 54;
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.ForeColor = SystemColors.ActiveCaptionText;
-            label1.Location = new Point(144, 144);
-            label1.Name = "label1";
-            label1.Size = new Size(180, 27);
-            label1.TabIndex = 51;
-            label1.Text = "Branch Number";
-            label1.Click += label1_Click;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Britannic Bold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.Location = new System.Drawing.Point(165, 192);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(225, 33);
+            this.label1.TabIndex = 51;
+            this.label1.Text = "Branch Number";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(144, 174);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(248, 23);
-            textBox1.TabIndex = 50;
-            textBox1.TextChanged += textBox1_TextChanged;
+            this.textBox1.Location = new System.Drawing.Point(165, 232);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(283, 27);
+            this.textBox1.TabIndex = 50;
             // 
             // pictureBox1
             // 
-            pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
-            pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(751, 12);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(46, 34);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 49;
-            pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(858, 16);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(53, 45);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 49;
+            this.pictureBox1.TabStop = false;
             // 
             // pictureBox2
             // 
-            pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
-            pictureBox2.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox2.Location = new Point(263, 12);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(68, 55);
-            pictureBox2.TabIndex = 48;
-            pictureBox2.TabStop = false;
-            pictureBox2.Click += pictureBox2_Click;
+            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox2.Location = new System.Drawing.Point(301, 16);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(78, 73);
+            this.pictureBox2.TabIndex = 48;
+            this.pictureBox2.TabStop = false;
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Britannic Bold", 26.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.ForeColor = SystemColors.ActiveCaptionText;
-            label2.Location = new Point(327, 29);
-            label2.Name = "label2";
-            label2.Size = new Size(197, 38);
-            label2.TabIndex = 47;
-            label2.Text = "Add Branch";
-            label2.Click += label2_Click;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Britannic Bold", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label2.Location = new System.Drawing.Point(374, 39);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(246, 48);
+            this.label2.TabIndex = 47;
+            this.label2.Text = "Add Branch";
             // 
             // panel1
             // 
-            panel1.BackColor = SystemColors.ActiveCaption;
-            panel1.Dock = DockStyle.Left;
-            panel1.Location = new Point(0, 0);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(46, 450);
-            panel1.TabIndex = 46;
-            panel1.Paint += panel1_Paint;
+            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(53, 600);
+            this.panel1.TabIndex = 46;
             // 
             // AddBranch
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(label8);
-            Controls.Add(label7);
-            Controls.Add(textBox6);
-            Controls.Add(label6);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(label1);
-            Controls.Add(textBox1);
-            Controls.Add(pictureBox1);
-            Controls.Add(pictureBox2);
-            Controls.Add(label2);
-            Controls.Add(panel1);
-            FormBorderStyle = FormBorderStyle.None;
-            Name = "AddBranch";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "AddBranch";
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(914, 600);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Name = "AddBranch";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "AddBranch";
+            this.Load += new System.EventHandler(this.AddBranch_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion

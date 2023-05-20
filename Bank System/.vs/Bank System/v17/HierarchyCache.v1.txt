@@ -1,0 +1,408 @@
+﻿++Solution 'Bank System' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:Bank System.sln
+++Bank System
+i:{00000000-0000-0000-0000-000000000000}:Bank System
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\.vs\bank system\
+++Dependencies
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:>210
+++Imports
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:>224
+++Properties
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\properties\
+++.vs
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\.vs\
+++ProjectSettings.json
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\.vs\projectsettings.json
+++slnx.sqlite
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\.vs\slnx.sqlite
+++VSWorkspaceState.json
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\.vs\vsworkspacestate.json
+++bin
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\bin\
+++obj
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\
+++AddBank.cs
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\addbank.cs
+++AddBranch.cs
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\addbranch.cs
+++addCustomer.cs
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\addcustomer.cs
+++AdminMenu.cs
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\adminmenu.cs
+++AdminMenu.Designer.cs
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\adminmenu.designer.cs
+++AdminMenu.resx
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\adminmenu.resx
+++CustomerMenu.cs
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\customermenu.cs
+++EmployeeMenu.cs
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\employeemenu.cs
+++Login.cs
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\login.cs
+++MakeLoan.cs
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\makeloan.cs
+++Program.cs
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\program.cs
+++Splash.cs
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\splash.cs
+++Analyzers
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:analyzers
+++Frameworks
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:frameworks
+++Sdk.props
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\sdk\sdk.props
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.illink.tasks\sdk\sdk.props
+++Sdk.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\sdk\sdk.targets
+++Resources.resx
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\properties\resources.resx
+++v17
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\.vs\bank system\v17\
+++Debug
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\bin\debug\
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\
+++Release
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\bin\release\
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\release\
+++Bank System.csproj.nuget.dgspec.json
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\bank system.csproj.nuget.dgspec.json
+++Bank System.csproj.nuget.g.props
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\bank system.csproj.nuget.g.props
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\bank system.csproj.nuget.g.props
+++Bank System.csproj.nuget.g.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\bank system.csproj.nuget.g.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\bank system.csproj.nuget.g.targets
+++project.assets.json
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\project.assets.json
+++project.nuget.cache
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\project.nuget.cache
+++AddBank.Designer.cs
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\addbank.designer.cs
+++AddBank.resx
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\addbank.resx
+++AddBranch.Designer.cs
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\addbranch.designer.cs
+++AddBranch.resx
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\addbranch.resx
+++addCustomer.Designer.cs
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\addcustomer.designer.cs
+++addCustomer.resx
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\addcustomer.resx
+++CustomerMenu.Designer.cs
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\customermenu.designer.cs
+++CustomerMenu.resx
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\customermenu.resx
+++EmployeeMenu.Designer.cs
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\employeemenu.designer.cs
+++EmployeeMenu.resx
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\employeemenu.resx
+++Login.Designer.cs
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\login.designer.cs
+++Login.resx
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\login.resx
+++MakeLoan.Designer.cs
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\makeloan.designer.cs
+++MakeLoan.resx
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\makeloan.resx
+++Splash.Designer.cs
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\splash.designer.cs
+++Splash.resx
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\splash.resx
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++System.Text.Json.SourceGeneration
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++System.Windows.Forms.Analyzers
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\packs\microsoft.windowsdesktop.app.ref\6.0.3\analyzers\dotnet\system.windows.forms.analyzers.dll
+++System.Windows.Forms.Analyzers.CSharp
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\packs\microsoft.windowsdesktop.app.ref\6.0.3\analyzers\dotnet\cs\system.windows.forms.analyzers.csharp.dll
+++Microsoft.NETCore.App
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\microsoft.netcore.app
+++Microsoft.WindowsDesktop.App.WindowsForms
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\microsoft.windowsdesktop.app.windowsforms
+++Microsoft.Common.props
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.props
+++Microsoft.NET.Sdk.props
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.props
+++Microsoft.NET.Sdk.BeforeCommon.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.beforecommon.targets
+++Microsoft.CSharp.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.csharp.targets
+++Microsoft.NET.Sdk.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.targets
+++Microsoft.NET.Compatibility.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.targets
+++NuGet.Build.Tasks.Pack.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\nuget.build.tasks.pack\build\nuget.build.tasks.pack.targets
+++Resources.Designer.cs
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\properties\resources.designer.cs
+++net6.0-windows
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\bin\debug\net6.0-windows\
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\bin\release\net6.0-windows\
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\net6.0-windows\
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\release\net6.0-windows\
+++Microsoft.NuGet.ImportBefore.props
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\microsoft visual studio\2022\community\msbuild\current\imports\microsoft.common.props\importbefore\microsoft.nuget.importbefore.props
+++NuGet.props
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\nuget\nuget.props
+++Microsoft.NET.Sdk.DefaultItems.props
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.props
+++Microsoft.NET.Sdk.ImportWorkloads.props
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.props
+++Microsoft.NET.SupportedTargetFrameworks.props
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.supportedtargetframeworks.props
+++Microsoft.NET.SupportedPlatforms.props
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.supportedplatforms.props
+++Microsoft.NET.WindowsSdkSupportedTargetPlatforms.props
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.windowssdksupportedtargetplatforms.props
+++Microsoft.NET.Sdk.CSharp.props
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.props
+++Microsoft.NET.ILLink.props
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.illink.props
+++Microsoft.NET.Compatibility.props
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.props
+++Microsoft.NET.PackTool.props
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.props
+++Microsoft.NET.PackProjectTool.props
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.props
+++Microsoft.NET.Sdk.WindowsDesktop.props
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.props
+++Microsoft.NET.Windows.props
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.windows.props
+++Microsoft.NET.DefaultAssemblyInfo.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.defaultassemblyinfo.targets
+++Microsoft.NET.DefaultOutputPaths.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.defaultoutputpaths.targets
+++Microsoft.NET.Sdk.ImportPublishProfile.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importpublishprofile.targets
+++Microsoft.NET.TargetFrameworkInference.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.targetframeworkinference.targets
+++Microsoft.NET.Sdk.ImportWorkloads.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.targets
+++Microsoft.NET.RuntimeIdentifierInference.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.runtimeidentifierinference.targets
+++Microsoft.NET.EolTargetFrameworks.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.eoltargetframeworks.targets
+++Microsoft.NET.NuGetOfflineCache.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.nugetofflinecache.targets
+++Microsoft.Managed.Before.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.managed.before.targets
+++Microsoft.CSharp.CurrentVersion.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.csharp.currentversion.targets
+++Microsoft.Managed.After.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.managed.after.targets
+++Microsoft.NET.Sdk.Common.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.common.targets
+++Microsoft.PackageDependencyResolution.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.packagedependencyresolution.targets
+++Microsoft.NET.Sdk.DefaultItems.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.targets
+++Microsoft.NET.Sdk.FrameworkReferenceResolution.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.frameworkreferenceresolution.targets
+++Microsoft.NET.Sdk.Shared.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.shared.targets
+++Microsoft.NET.DisableStandardFrameworkResolution.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.disablestandardframeworkresolution.targets
+++Microsoft.NET.DesignerSupport.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.designersupport.targets
+++Microsoft.NET.GenerateAssemblyInfo.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.generateassemblyinfo.targets
+++Microsoft.NET.GenerateGlobalUsings.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.generateglobalusings.targets
+++Microsoft.NET.GenerateSupportedRuntime.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.generatesupportedruntime.targets
+++Microsoft.NET.ComposeStore.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.composestore.targets
+++Microsoft.NET.CrossGen.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.crossgen.targets
+++Microsoft.NET.ObsoleteReferences.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.obsoletereferences.targets
+++Microsoft.NET.Publish.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.publish.targets
+++Microsoft.NET.PackTool.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.targets
+++Microsoft.NET.PackProjectTool.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.targets
+++Microsoft.NET.PreserveCompilationContext.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.preservecompilationcontext.targets
+++Microsoft.NET.ConflictResolution.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.conflictresolution.targets
+++Microsoft.NET.Sdk.CSharp.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.targets
+++Microsoft.NET.ILLink.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.illink.targets
+++Microsoft.NET.Sdk.Analyzers.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.analyzers.targets
+++Microsoft.NET.Windows.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.windows.targets
+++Microsoft.NET.Sdk.WindowsDesktop.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.targets
+++Microsoft.NET.Compatibility.Common.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.common.targets
+++Bank System.deps.json
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\bin\debug\net6.0-windows\bank system.deps.json
+++Bank System.dll
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\bin\debug\net6.0-windows\bank system.dll
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\net6.0-windows\bank system.dll
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\net6.0-windows\ref\bank system.dll
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\net6.0-windows\refint\bank system.dll
+++Bank System.exe
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\bin\debug\net6.0-windows\bank system.exe
+++Bank System.pdb
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\bin\debug\net6.0-windows\bank system.pdb
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\net6.0-windows\bank system.pdb
+++Bank System.runtimeconfig.json
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\bin\debug\net6.0-windows\bank system.runtimeconfig.json
+++ref
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\net6.0-windows\ref\
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\release\net6.0-windows\ref\
+++refint
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\net6.0-windows\refint\
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\release\net6.0-windows\refint\
+++TempPE
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\net6.0-windows\temppe\
+++.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\net6.0-windows\.netcoreapp,version=v6.0.assemblyattributes.cs
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\release\net6.0-windows\.netcoreapp,version=v6.0.assemblyattributes.cs
+++apphost.exe
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\net6.0-windows\apphost.exe
+++Bank System.AssemblyInfo.cs
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\net6.0-windows\bank system.assemblyinfo.cs
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\release\net6.0-windows\bank system.assemblyinfo.cs
+++Bank System.AssemblyInfoInputs.cache
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\net6.0-windows\bank system.assemblyinfoinputs.cache
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\release\net6.0-windows\bank system.assemblyinfoinputs.cache
+++Bank System.assets.cache
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\net6.0-windows\bank system.assets.cache
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\release\net6.0-windows\bank system.assets.cache
+++Bank System.csproj.AssemblyReference.cache
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\net6.0-windows\bank system.csproj.assemblyreference.cache
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\release\net6.0-windows\bank system.csproj.assemblyreference.cache
+++Bank System.csproj.BuildWithSkipAnalyzers
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\net6.0-windows\bank system.csproj.buildwithskipanalyzers
+++Bank System.csproj.CoreCompileInputs.cache
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\net6.0-windows\bank system.csproj.corecompileinputs.cache
+++Bank System.csproj.FileListAbsolute.txt
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\net6.0-windows\bank system.csproj.filelistabsolute.txt
+++Bank System.csproj.GenerateResource.cache
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\net6.0-windows\bank system.csproj.generateresource.cache
+++Bank System.designer.deps.json
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\net6.0-windows\bank system.designer.deps.json
+++Bank System.designer.runtimeconfig.json
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\net6.0-windows\bank system.designer.runtimeconfig.json
+++Bank System.GeneratedMSBuildEditorConfig.editorconfig
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\net6.0-windows\bank system.generatedmsbuildeditorconfig.editorconfig
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\release\net6.0-windows\bank system.generatedmsbuildeditorconfig.editorconfig
+++Bank System.genruntimeconfig.cache
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\net6.0-windows\bank system.genruntimeconfig.cache
+++Bank System.GlobalUsings.g.cs
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\net6.0-windows\bank system.globalusings.g.cs
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\release\net6.0-windows\bank system.globalusings.g.cs
+++Bank_System.AddBank.resources
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\net6.0-windows\bank_system.addbank.resources
+++Bank_System.AddBranch.resources
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\net6.0-windows\bank_system.addbranch.resources
+++Bank_System.addCustomer.resources
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\net6.0-windows\bank_system.addcustomer.resources
+++Bank_System.AdminMenu.resources
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\net6.0-windows\bank_system.adminmenu.resources
+++Bank_System.CustomerMenu.resources
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\net6.0-windows\bank_system.customermenu.resources
+++Bank_System.EmployeeMenu.resources
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\net6.0-windows\bank_system.employeemenu.resources
+++Bank_System.Login.resources
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\net6.0-windows\bank_system.login.resources
+++Bank_System.MainMenu.resources
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\net6.0-windows\bank_system.mainmenu.resources
+++Bank_System.MakeLoan.resources
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\net6.0-windows\bank_system.makeloan.resources
+++Bank_System.Properties.Resources.resources
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\net6.0-windows\bank_system.properties.resources.resources
+++Bank_System.Splash.resources
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\net6.0-windows\bank_system.splash.resources
+++Microsoft.NuGet.props
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\nuget\17.0\microsoft.nuget.props
+++Microsoft.NETCoreSdk.BundledVersions.props
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\microsoft.netcoresdk.bundledversions.props
+++Microsoft.NET.Sdk.WindowsDesktop.WindowsForms.props
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.windowsforms.props
+++Microsoft.NET.Sdk.WindowsDesktop.WPF.props
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.wpf.props
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.android)
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.android\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.ios)
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.ios\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.maccatalyst)
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.maccatalyst\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.macos)
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.macos\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.maui)
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.maui\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.tvos)
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.tvos\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.workload.emscripten)
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.workload.emscripten\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.workload.mono.toolchain)
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.workload.mono.toolchain\workloadmanifest.targets
+++Microsoft.CSharp.Core.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.csharp.core.targets
+++Microsoft.CSharp.DesignTime.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed\microsoft.csharp.designtime.targets
+++Microsoft.Common.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.common.targets
+++Microsoft.ServiceModel.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.servicemodel.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.servicemodel.targets
+++Microsoft.NET.Sdk.DefaultItems.Shared.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.shared.targets
+++Microsoft.NETCoreSdk.BundledCliTools.props
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\microsoft.netcoresdk.bundledclitools.props
+++Microsoft.NET.DefaultPackageConflictOverrides.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\targets\microsoft.net.defaultpackageconflictoverrides.targets
+++Microsoft.CodeAnalysis.NetAnalyzers.props
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.props
+++Microsoft.CodeAnalysis.NetAnalyzers.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.targets
+++Microsoft.NET.Sdk.WindowsDesktop.WindowsForms.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.windowsforms.targets
+++Microsoft.WinFX.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.winfx.targets
+++Properties.Resources.Designer.cs.dll
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\obj\debug\net6.0-windows\temppe\properties.resources.designer.cs.dll
+++Microsoft.NET.ILLink.Tasks.props
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.illink.tasks\build\microsoft.net.illink.tasks.props
+++System.Windows.Forms.Analyzers.props
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.windowsdesktop\targets\system.windows.forms.analyzers.props
+++Microsoft.Managed.Core.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.managed.core.targets
+++Microsoft.Managed.DesignTime.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed\microsoft.managed.designtime.targets
+++Microsoft.Common.CurrentVersion.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.common.currentversion.targets
+++Microsoft.Managed.Core.CurrentVersions.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.managed.core.currentversions.targets
+++Bank System.csproj.user
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\users\dell\documents\github\banksystem\bank system\bank system\bank system.csproj.user
+++Microsoft.NET.props
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.net.props
+++Microsoft.CodeAnalysis.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\codeanalysis\microsoft.codeanalysis.targets
+++Microsoft.Xaml.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.xaml.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.xaml.targets
+++Microsoft.WorkflowBuildExtensions.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.workflowbuildextensions.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.workflowbuildextensions.targets
+++Microsoft.TeamTest.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\teamtest\microsoft.teamtest.targets
+++NuGet.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\nuget\nuget.targets
+++Microsoft.NET.Build.Extensions.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.net.build.extensions.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\microsoft.net.build.extensions\microsoft.net.build.extensions.targets
+++Microsoft.NuGet.ImportAfter.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.nuget.importafter.targets
+++Microsoft.Web.ImportAfter.targets
+i:{7e38eecf-6b97-4c02-91c5-4fb72d0cccee}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.web.importafter.targets

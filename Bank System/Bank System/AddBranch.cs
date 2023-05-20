@@ -85,5 +85,15 @@ namespace Bank_System
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
         }
+
+        private void AddBranch_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

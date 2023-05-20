@@ -19,3 +19,29 @@ E:\vs projects\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.pdb
 E:\vs projects\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.genruntimeconfig.cache
 E:\vs projects\Bank System\Bank System\obj\Debug\net6.0-windows\ref\Bank System.dll
 E:\vs projects\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.addCustomer.resources
+C:\Users\Dell\Documents\GitHub\BankSystem\Bank System\Bank System\bin\Debug\net6.0-windows\Bank System.exe
+C:\Users\Dell\Documents\GitHub\BankSystem\Bank System\Bank System\bin\Debug\net6.0-windows\Bank System.deps.json
+C:\Users\Dell\Documents\GitHub\BankSystem\Bank System\Bank System\bin\Debug\net6.0-windows\Bank System.runtimeconfig.json
+C:\Users\Dell\Documents\GitHub\BankSystem\Bank System\Bank System\bin\Debug\net6.0-windows\Bank System.dll
+C:\Users\Dell\Documents\GitHub\BankSystem\Bank System\Bank System\bin\Debug\net6.0-windows\Bank System.pdb
+C:\Users\Dell\Documents\GitHub\BankSystem\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.csproj.AssemblyReference.cache
+C:\Users\Dell\Documents\GitHub\BankSystem\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.AddBank.resources
+C:\Users\Dell\Documents\GitHub\BankSystem\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.AddBranch.resources
+C:\Users\Dell\Documents\GitHub\BankSystem\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.addCustomer.resources
+C:\Users\Dell\Documents\GitHub\BankSystem\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.AdminMenu.resources
+C:\Users\Dell\Documents\GitHub\BankSystem\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.CustomerMenu.resources
+C:\Users\Dell\Documents\GitHub\BankSystem\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.EmployeeMenu.resources
+C:\Users\Dell\Documents\GitHub\BankSystem\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.Login.resources
+C:\Users\Dell\Documents\GitHub\BankSystem\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.MakeLoan.resources
+C:\Users\Dell\Documents\GitHub\BankSystem\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.Properties.Resources.resources
+C:\Users\Dell\Documents\GitHub\BankSystem\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.Splash.resources
+C:\Users\Dell\Documents\GitHub\BankSystem\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.csproj.GenerateResource.cache
+C:\Users\Dell\Documents\GitHub\BankSystem\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\Documents\GitHub\BankSystem\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.AssemblyInfoInputs.cache
+C:\Users\Dell\Documents\GitHub\BankSystem\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.AssemblyInfo.cs
+C:\Users\Dell\Documents\GitHub\BankSystem\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Documents\GitHub\BankSystem\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.dll
+C:\Users\Dell\Documents\GitHub\BankSystem\Bank System\Bank System\obj\Debug\net6.0-windows\refint\Bank System.dll
+C:\Users\Dell\Documents\GitHub\BankSystem\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.pdb
+C:\Users\Dell\Documents\GitHub\BankSystem\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.genruntimeconfig.cache
+C:\Users\Dell\Documents\GitHub\BankSystem\Bank System\Bank System\obj\Debug\net6.0-windows\ref\Bank System.dll
