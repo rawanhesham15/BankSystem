@@ -7,8 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows;
 using System.Data.SqlClient;
-
 
 namespace Bank_System
 {
@@ -20,16 +20,16 @@ namespace Bank_System
             DisplayAccounts();
         }
 
-        SqlConnection Con= new SqlConnection(@"Data Source=DESKTOP-1SCDO1H;Initial Catalog=Connection;Integrated Security=True");
+        SqlConnection Con = new SqlConnection("Data Source=DESKTOP-FJ2DD2M\\SQLEXPRESS01;Initial Catalog=bankSystem;Integrated Security=True");
         private void DisplayAccounts()
         {
             Con.Open();
             string Query = "select * from AccountTb1";
-            SqlDataAdapter sda = new SqlDataAdapter(Query,Con);
-            SqlCommandBuilder Build= new SqlCommandBuilder(sda);
+            SqlDataAdapter sda = new SqlDataAdapter(Query, Con);
+            SqlCommandBuilder Build = new SqlCommandBuilder(sda);
             var ds = new DataSet();
             sda.Fill(ds);
-            addCustomer.DataSource = ds.Tables[0];
+            customerDGV.DataSource = ds.Tables[0];
 
             Con.Close();
         }
@@ -76,15 +76,15 @@ namespace Bank_System
         {
             AcNameTb.Text = "";
             AcCityTb.Text = "";
-            AcPhoneNumberTb.Text ="";
+            AcPhoneNumberTb.Text = "";
             AcSSNTb.Text = "";
-            AcStreetTb.Text ="";
+            AcStreetTb.Text = "";
             AcBuildingNumberTb.Text = "";
         }
 
         private void AddBtn_Click(object sender, EventArgs e)
         {
-            if(AcNameTb.Text =="" || AcPhoneNumberTb.Text =="" ||  AcStreetTb.Text =="" || AcCityTb.Text == "")
+            if (AcNameTb.Text == "" || AcPhoneNumberTb.Text == "" || AcStreetTb.Text == "" || AcCityTb.Text == "")
             {
                 MessageBox.Show("Missing information");
             }
@@ -93,8 +93,8 @@ namespace Bank_System
                 try
                 {
                     Con.Open();
-                    SqlCommand cmd = new SqlCommand("insert into AccountTbl(AcName,AcStreet,AcSSN,AcCity,AcBuildingNumber,AcPhoneNumber)valyes(@AN,@S,@SNN,@City,@BN,@PN)",Con);
-                    cmd.Parameters.AddWithValue("@AN",AcNameTb.Text);
+                    SqlCommand cmd = new SqlCommand("insert into AccountTbl(AcName,AcStreet,AcSSN,AcCity,AcBuildingNumber,AcPhoneNumber)valyes(@AN,@S,@SNN,@City,@BN,@PN)", Con);
+                    cmd.Parameters.AddWithValue("@AN", AcNameTb.Text);
                     cmd.Parameters.AddWithValue("@S", AcStreetTb.Text);
                     cmd.Parameters.AddWithValue("@SNN", AcSSNTb.Text);
                     cmd.Parameters.AddWithValue("@City", AcCityTb.Text);
@@ -106,7 +106,8 @@ namespace Bank_System
                     Rest();
                     DisplayAccounts();
 
-                }catch(Exception ex)
+                }
+                catch (Exception ex)
                 {
                     MessageBox.Show(ex.Message);
                 }
@@ -120,19 +121,19 @@ namespace Bank_System
 
         private void addCustomer_Load(object sender, EventArgs e)
         {
-            AcNameTb.Text = addCustomer.SelectdRows[0].Cell[1].Value.ToString();
-            AcSSNTb.Text = addCustomer.SelectdRows[0].Cell[2].Value.ToString();
-            AcCityTb.Text = addCustomer.SelectdRows[0].Cell[3].Value.ToString();
-            AcStreetTb.Text = addCustomer.SelectdRows[0].Cell[4].Value.ToString();
-            AcBuildingNumberTb.Text = addCustomer.SelectdRows[0].Cell[5].Value.ToString();
-            AcPhoneNumberTb.Text = addCustomer.SelectdRows[0].Cell[6].Value.ToString();
-            if(AcSSNTb.Text == "")
+            AcNameTb.Text = customerDGV.SelectedRows[0].Cells[1].Value.ToString();
+            AcSSNTb.Text = customerDGV.SelectedRows[0].Cells[2].Value.ToString();
+            AcCityTb.Text = customerDGV.SelectedRows[0].Cells[3].Value.ToString();
+            AcStreetTb.Text = customerDGV.SelectedRows[0].Cells[4].Value.ToString();
+            AcBuildingNumberTb.Text = customerDGV.SelectedRows[0].Cells[5].Value.ToString();
+            AcPhoneNumberTb.Text = customerDGV.SelectedRows[0].Cells[6].Value.ToString();
+            if (AcSSNTb.Text == "")
             {
                 Key = 0;
             }
             else
             {
-                Key = Convert.ToInt32(addCustomer.SelectdRows[0].Cell[1].Value.ToString());
+                Key = Convert.ToInt32(customerDGV.SelectedRows[0].Cells[1].Value.ToString());
             }
         }
 
@@ -165,5 +166,20 @@ namespace Bank_System
 
         }
         int Key = 0;
+
+        private void AcSSNTb_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AcCityTb_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
