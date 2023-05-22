@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dell\\Desktop\\Bank Systemtosend\\Bank System\\Bank System\\Bank System.csproj": {}
+    "C:\\Users\\Dell\\Desktop\\Bank System\\Bank System\\Bank System\\Bank System.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dell\\Desktop\\Bank Systemtosend\\Bank System\\Bank System\\Bank System.csproj": {
+    "C:\\Users\\Dell\\Desktop\\Bank System\\Bank System\\Bank System\\Bank System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\Bank Systemtosend\\Bank System\\Bank System\\Bank System.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\Bank System\\Bank System\\Bank System\\Bank System.csproj",
         "projectName": "Bank System",
-        "projectPath": "C:\\Users\\Dell\\Desktop\\Bank Systemtosend\\Bank System\\Bank System\\Bank System.csproj",
+        "projectPath": "C:\\Users\\Dell\\Desktop\\Bank System\\Bank System\\Bank System\\Bank System.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\Desktop\\Bank Systemtosend\\Bank System\\Bank System\\obj\\",
+        "outputPath": "C:\\Users\\Dell\\Desktop\\Bank System\\Bank System\\Bank System\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",

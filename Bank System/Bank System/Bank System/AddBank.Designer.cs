@@ -106,7 +106,7 @@
             label7.AutoSize = true;
             label7.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
             label7.ForeColor = SystemColors.ActiveCaptionText;
-            label7.Location = new Point(456, 90);
+            label7.Location = new Point(456, 96);
             label7.Name = "label7";
             label7.Size = new Size(75, 27);
             label7.TabIndex = 41;
@@ -167,7 +167,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
             label1.ForeColor = SystemColors.ActiveCaptionText;
-            label1.Location = new Point(119, 90);
+            label1.Location = new Point(119, 96);
             label1.Name = "label1";
             label1.Size = new Size(71, 27);
             label1.TabIndex = 32;

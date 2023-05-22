@@ -24,12 +24,16 @@ namespace Bank_System
 
         private void button2_Click_1(object sender, EventArgs e)
         {
-
+            ListOfCustomers obj = new ListOfCustomers();
+            obj.Show();
+            this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            updateCustomer obj = new updateCustomer();
+            obj.Show();
+            this.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -37,6 +41,18 @@ namespace Bank_System
             addCustomer obj = new addCustomer();
             obj.Show();
             this.Hide();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            Login obj = new Login();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

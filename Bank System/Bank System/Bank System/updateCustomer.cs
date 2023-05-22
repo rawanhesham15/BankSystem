@@ -18,7 +18,7 @@ namespace Bank_System
         {
             InitializeComponent();
         }
-        SqlConnection Con = new SqlConnection("Data Source=DESKTOP-FJ2DD2M\\SQLEXPRESS01;Initial Catalog=bankSystem;Integrated Security=True");
+        SqlConnection Con = new SqlConnection("Data Source=DESKTOP-28TECAI;Initial Catalog=BankingSystem2;Integrated Security=True");
 
         private void updateCustomer_Load(object sender, EventArgs e)
         {
@@ -30,7 +30,28 @@ namespace Bank_System
 
         }
 
-        private void search_Click(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void Reset()
+        {
+            CityToupdate.Text = "";
+            //phonetoupdate.Text = "";
+            nameToUpdate.Text = "";
+            StreetToupdate.Text = "";
+            buildingtoupdate.Text = "";
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            EmployeeMenu obj = new EmployeeMenu();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void search_Click_1(object sender, EventArgs e)
         {
             if (SSNupdate.Text == "")
             {
@@ -55,44 +76,20 @@ namespace Bank_System
             }
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void button2_Click_1(object sender, EventArgs e)
         {
-            Application.Exit();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            string Query = "delete from Customer where SSN = " + SSNupdate.Text;
-
-            SqlDataAdapter sda = new SqlDataAdapter(Query, Con);
-            SqlCommandBuilder Build = new SqlCommandBuilder(sda);
-            var ds = new DataSet();
-            sda.Fill(ds);
-        }
-        private void Reset()
-        {
-            CityToupdate.Text = "";
-            //phonetoupdate.Text = "";
-            nameToUpdate.Text = "";
-            StreetToupdate.Text = "";
-            buildingtoupdate.Text = "";
-        }
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-
             try
             {
                 Con.Open();
-                 SqlCommand cmd = new SqlCommand("Update Customer set Name = @AN , Street = @S , city = @City , buildingNo = @BN , SSN =  @SSN where SSN = @SSN ", Con);
-               cmd.Parameters.AddWithValue("@AN", nameToUpdate.Text);
+                SqlCommand cmd = new SqlCommand("Update Customer set Name = @AN , Street = @S , city = @City , buildingNo = @BN , SSN =  @SSN where SSN = @SSN ", Con);
+                cmd.Parameters.AddWithValue("@AN", nameToUpdate.Text);
                 cmd.Parameters.AddWithValue("@S", StreetToupdate.Text);
                 cmd.Parameters.AddWithValue("@City", CityToupdate.Text);
                 cmd.Parameters.AddWithValue("@BN", buildingtoupdate.Text);
-               // cmd.Parameters.AddWithValue("@PN", phonetoupdate.Text);
+                // cmd.Parameters.AddWithValue("@PN", phonetoupdate.Text);
                 cmd.Parameters.AddWithValue("@SSN", updatessn.Text);
                 cmd.ExecuteNonQuery();
-              //  MessageBox.Show(nameToUpdate.Text, CityToupdate.Text+ buildingtoupdate.Text+ StreetToupdate.Text+ phonetoupdate.Text + updatessn.Text);
+                //  MessageBox.Show(nameToUpdate.Text, CityToupdate.Text+ buildingtoupdate.Text+ StreetToupdate.Text+ phonetoupdate.Text + updatessn.Text);
                 MessageBox.Show("Customer's Information Updated Successfully!!" + updatessn.Text);
                 Con.Close();
                 Reset();
@@ -105,19 +102,14 @@ namespace Bank_System
             }
         }
 
-        private void textBox7_TextChanged(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
+            string Query = "delete from Customer where SSN = " + SSNupdate.Text;
 
-        }
-
-        private void textBox9_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox5_TextChanged(object sender, EventArgs e)
-        {
-
+            SqlDataAdapter sda = new SqlDataAdapter(Query, Con);
+            SqlCommandBuilder Build = new SqlCommandBuilder(sda);
+            var ds = new DataSet();
+            sda.Fill(ds);
         }
     }
 }

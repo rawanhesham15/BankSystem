@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(addCustomer));
             panel1 = new Panel();
+            pictureBox3 = new PictureBox();
             label2 = new Label();
             pictureBox2 = new PictureBox();
             pictureBox1 = new PictureBox();
@@ -38,7 +39,7 @@
             label3 = new Label();
             cusSSNTb = new TextBox();
             label4 = new Label();
-            cusCityTb = new TextBox();
+            empSSN = new TextBox();
             label5 = new Label();
             cusBuildingNumberTb = new TextBox();
             label6 = new Label();
@@ -49,19 +50,18 @@
             cusAddBtn = new Button();
             customerDGV = new DataGridView();
             label9 = new Label();
-            textBox1 = new TextBox();
+            balance = new TextBox();
             label10 = new Label();
-            textBox2 = new TextBox();
+            city = new TextBox();
             label11 = new Label();
-            textBox3 = new TextBox();
-            pictureBox3 = new PictureBox();
+            accNo = new TextBox();
             label12 = new Label();
-            textBox4 = new TextBox();
+            accType = new TextBox();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)customerDGV).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -73,6 +73,18 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(46, 594);
             panel1.TabIndex = 0;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.BackgroundImage = (Image)resources.GetObject("pictureBox3.BackgroundImage");
+            pictureBox3.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureBox3.Location = new Point(0, 3);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(46, 34);
+            pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox3.TabIndex = 69;
+            pictureBox3.TabStop = false;
+            pictureBox3.Click += pictureBox3_Click;
             // 
             // label2
             // 
@@ -157,13 +169,13 @@
             label4.TabIndex = 16;
             label4.Text = "City";
             // 
-            // cusCityTb
+            // empSSN
             // 
-            cusCityTb.Location = new Point(142, 245);
-            cusCityTb.Name = "cusCityTb";
-            cusCityTb.Size = new Size(248, 23);
-            cusCityTb.TabIndex = 15;
-            cusCityTb.TextChanged += AcCityTb_TextChanged;
+            empSSN.Location = new Point(142, 245);
+            empSSN.Name = "empSSN";
+            empSSN.Size = new Size(248, 23);
+            empSSN.TabIndex = 15;
+            empSSN.TextChanged += AcCityTb_TextChanged;
             // 
             // label5
             // 
@@ -251,7 +263,7 @@
             customerDGV.BackgroundColor = SystemColors.ButtonHighlight;
             customerDGV.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             customerDGV.Location = new Point(142, 478);
-            customerDGV.Margin = new Padding(2, 2, 2, 2);
+            customerDGV.Margin = new Padding(2);
             customerDGV.Name = "customerDGV";
             customerDGV.RowHeadersWidth = 62;
             customerDGV.RowTemplate.Height = 35;
@@ -270,12 +282,12 @@
             label9.TabIndex = 31;
             label9.Text = "City";
             // 
-            // textBox1
+            // balance
             // 
-            textBox1.Location = new Point(479, 307);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(248, 23);
-            textBox1.TabIndex = 30;
+            balance.Location = new Point(479, 307);
+            balance.Name = "balance";
+            balance.Size = new Size(248, 23);
+            balance.TabIndex = 30;
             // 
             // label10
             // 
@@ -288,12 +300,12 @@
             label10.TabIndex = 29;
             label10.Text = "Balance";
             // 
-            // textBox2
+            // city
             // 
-            textBox2.Location = new Point(142, 307);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(248, 23);
-            textBox2.TabIndex = 28;
+            city.Location = new Point(142, 307);
+            city.Name = "city";
+            city.Size = new Size(248, 23);
+            city.TabIndex = 28;
             // 
             // label11
             // 
@@ -306,24 +318,12 @@
             label11.TabIndex = 33;
             label11.Text = "Account Number";
             // 
-            // textBox3
+            // accNo
             // 
-            textBox3.Location = new Point(142, 378);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(248, 23);
-            textBox3.TabIndex = 32;
-            // 
-            // pictureBox3
-            // 
-            pictureBox3.BackgroundImage = (Image)resources.GetObject("pictureBox3.BackgroundImage");
-            pictureBox3.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox3.Location = new Point(0, 3);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(46, 34);
-            pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox3.TabIndex = 69;
-            pictureBox3.TabStop = false;
-            pictureBox3.Click += pictureBox3_Click;
+            accNo.Location = new Point(142, 378);
+            accNo.Name = "accNo";
+            accNo.Size = new Size(248, 23);
+            accNo.TabIndex = 32;
             // 
             // label12
             // 
@@ -332,16 +332,16 @@
             label12.ForeColor = SystemColors.ActiveCaptionText;
             label12.Location = new Point(479, 348);
             label12.Name = "label12";
-            label12.Size = new Size(188, 27);
+            label12.Size = new Size(153, 27);
             label12.TabIndex = 35;
-            label12.Text = "Account Number";
+            label12.Text = "Account Type";
             // 
-            // textBox4
+            // accType
             // 
-            textBox4.Location = new Point(479, 378);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(248, 23);
-            textBox4.TabIndex = 34;
+            accType.Location = new Point(479, 378);
+            accType.Name = "accType";
+            accType.Size = new Size(248, 23);
+            accType.TabIndex = 34;
             // 
             // addCustomer
             // 
@@ -349,13 +349,13 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(830, 594);
             Controls.Add(label12);
-            Controls.Add(textBox4);
+            Controls.Add(accType);
             Controls.Add(label11);
-            Controls.Add(textBox3);
+            Controls.Add(accNo);
             Controls.Add(label9);
-            Controls.Add(textBox1);
+            Controls.Add(balance);
             Controls.Add(label10);
-            Controls.Add(textBox2);
+            Controls.Add(city);
             Controls.Add(customerDGV);
             Controls.Add(cusAddBtn);
             Controls.Add(label8);
@@ -366,7 +366,7 @@
             Controls.Add(label5);
             Controls.Add(cusBuildingNumberTb);
             Controls.Add(label4);
-            Controls.Add(cusCityTb);
+            Controls.Add(empSSN);
             Controls.Add(label3);
             Controls.Add(cusSSNTb);
             Controls.Add(label1);
@@ -381,10 +381,10 @@
             Text = "addCustomer";
             Load += addCustomer_Load;
             panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)customerDGV).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -400,7 +400,7 @@
         private Label label3;
         private TextBox cusSSNTb;
         private Label label4;
-        private TextBox cusCityTb;
+        private TextBox empSSN;
         private Label label5;
         private TextBox cusBuildingNumberTb;
         private Label label6;
@@ -411,13 +411,13 @@
         private Button cusAddBtn;
         private DataGridView customerDGV;
         private Label label9;
-        private TextBox textBox1;
+        private TextBox balance;
         private Label label10;
-        private TextBox textBox2;
+        private TextBox city;
         private Label label11;
-        private TextBox textBox3;
+        private TextBox accNo;
         private PictureBox pictureBox3;
         private Label label12;
-        private TextBox textBox4;
+        private TextBox accType;
     }
 }

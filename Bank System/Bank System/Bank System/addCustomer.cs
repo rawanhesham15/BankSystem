@@ -41,7 +41,7 @@ namespace Bank_System
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (cusNameTb.Text == "" || cusPhoneNumberTb.Text == "" || cusStreetTb.Text == "" || cusCityTb.Text == "")
+            if (cusNameTb.Text == "" || cusPhoneNumberTb.Text == "" || cusStreetTb.Text == "" || empSSN.Text == "")
             {
                 MessageBox.Show("Missing information");
             }
@@ -54,7 +54,7 @@ namespace Bank_System
                     cmd.Parameters.AddWithValue("@AN", cusNameTb.Text);
                     cmd.Parameters.AddWithValue("@S", cusStreetTb.Text);
                     cmd.Parameters.AddWithValue("@SNN", cusSSNTb.Text);
-                    cmd.Parameters.AddWithValue("@City", cusCityTb.Text);
+                    cmd.Parameters.AddWithValue("@City", empSSN.Text);
                     cmd.Parameters.AddWithValue("@PN", cusBuildingNumberTb.Text);
                     cmd.Parameters.AddWithValue("@BN", cusPhoneNumberTb.Text);
                     cmd.Parameters.AddWithValue("cus@Key", cusSSNTb.Text);
@@ -76,16 +76,20 @@ namespace Bank_System
         private void Reset()
         {
             cusNameTb.Text = "";
-            cusCityTb.Text = "";
+            empSSN.Text = "";
             cusPhoneNumberTb.Text = "";
             cusSSNTb.Text = "";
             cusStreetTb.Text = "";
             cusBuildingNumberTb.Text = "";
+            city.Text = "";
+            balance.Text = "";
+            accType.Text = "";
+            accNo.Text = "";
         }
 
         private void AddBtn_Click(object sender, EventArgs e)
         {
-            if (cusSSNTb.Text == "" || cusNameTb.Text == "" || cusCityTb.Text == "" || cusStreetTb.Text == "" || cusBuildingNumberTb.Text == "" || cusPhoneNumberTb.Text == "")
+            if (cusSSNTb.Text == "" || cusNameTb.Text == "" || empSSN.Text == "" || cusStreetTb.Text == "" || cusBuildingNumberTb.Text == "" || cusPhoneNumberTb.Text == "" || city.Text == "" || balance.Text == "" || accType.Text == "" || accNo.Text == "")
             {
                 MessageBox.Show("Missing information");
             }
@@ -94,14 +98,38 @@ namespace Bank_System
                 try
                 {
                     Con.Open();
-                    SqlCommand cmd = new SqlCommand("insert into customer(Name,SSN,City,Street,BuildingNo,phone)values(@AN,@SNN,@City,@S,@BN,@PN)", Con);
+                    SqlCommand cmd = new SqlCommand("insert into customer(SSN,empSSN,Name,City,Street,BuildingNo,phone)values(@SNN,@empSSN,@AN,@City,@S,@BN,@PN)", Con);
                     cmd.Parameters.AddWithValue("@AN", cusNameTb.Text);
                     cmd.Parameters.AddWithValue("@S", cusStreetTb.Text);
                     cmd.Parameters.AddWithValue("@SNN", cusSSNTb.Text);
-                    cmd.Parameters.AddWithValue("@City", cusCityTb.Text);
+                    cmd.Parameters.AddWithValue("@City", city.Text);
                     cmd.Parameters.AddWithValue("@BN", cusBuildingNumberTb.Text);
                     cmd.Parameters.AddWithValue("@PN", cusPhoneNumberTb.Text);
+                    cmd.Parameters.AddWithValue("@empSSN", empSSN.Text);
+
                     cmd.ExecuteNonQuery();
+
+                    SqlCommand cmd2 = new SqlCommand("insert into account(acctno, ssn, acctype, balance) values (@accNo, @ssn, @acctype, @balance)", Con);
+                    cmd2.Parameters.AddWithValue("@accNo", accNo.Text);
+                    cmd2.Parameters.AddWithValue("@ssn", cusSSNTb.Text);
+                    cmd2.Parameters.AddWithValue("@accType", accType.Text);
+                    cmd2.Parameters.AddWithValue("@balance", balance.Text);
+                    
+                    cmd2.ExecuteNonQuery();
+
+                    string branch = "select branchno from employee, customer where customer.empssn = employee.empssn";
+                    string bank = "select bankcode from employee, customer where customer.empssn = employee.empssn";
+                    SqlCommand cmd3 = new SqlCommand("insert into serve(bra_branchno,bra_bankcode,cus_ssn,branchno,bankcode,ssn)values(@BNPK,@bankNPK,@ssnPK,@BN,@bank,@ssn)", Con);
+                    
+                    cmd3.Parameters.AddWithValue("@BNPK", Int16.Parse(branch));
+                    cmd3.Parameters.AddWithValue("@bankNPK", Int16.Parse(bank));
+                    cmd3.Parameters.AddWithValue("@ssnPK", cusSSNTb.Text);
+                    cmd3.Parameters.AddWithValue("@BN", Int16.Parse(branch));
+                    cmd3.Parameters.AddWithValue("@bank", Int16.Parse(bank));
+                    cmd3.Parameters.AddWithValue("@ssn", cusSSNTb.Text);
+                    
+                    cmd3.ExecuteNonQuery();
+
                     MessageBox.Show("Customer Added!!");
                     Con.Close();
                     Reset();
@@ -114,6 +142,7 @@ namespace Bank_System
                 }
             }
         }
+
         // el add zay el fol
         private void AcBuildingNumberTb_TextChanged(object sender, EventArgs e)
         {
@@ -127,7 +156,7 @@ namespace Bank_System
 
             cusNameTb.Text = customerDGV.SelectedRows[0].Cells[1].Value.ToString();
             cusSSNTb.Text = customerDGV.SelectedRows[0].Cells[2].Value.ToString();
-            cusCityTb.Text = customerDGV.SelectedRows[0].Cells[3].Value.ToString();
+            empSSN.Text = customerDGV.SelectedRows[0].Cells[3].Value.ToString();
             cusStreetTb.Text = customerDGV.SelectedRows[0].Cells[4].Value.ToString();
             cusBuildingNumberTb.Text = customerDGV.SelectedRows[0].Cells[5].Value.ToString();
             cusPhoneNumberTb.Text = customerDGV.SelectedRows[0].Cells[6].Value.ToString();
@@ -219,7 +248,7 @@ namespace Bank_System
         {
             cusNameTb.Text = customerDGV.SelectedRows[0].Cells[1].Value.ToString();
             cusSSNTb.Text = customerDGV.SelectedRows[0].Cells[2].Value.ToString();
-            cusCityTb.Text = customerDGV.SelectedRows[0].Cells[3].Value.ToString();
+            empSSN.Text = customerDGV.SelectedRows[0].Cells[3].Value.ToString();
             cusStreetTb.Text = customerDGV.SelectedRows[0].Cells[4].Value.ToString();
             cusBuildingNumberTb.Text = customerDGV.SelectedRows[0].Cells[5].Value.ToString();
             cusPhoneNumberTb.Text = customerDGV.SelectedRows[0].Cells[6].Value.ToString();

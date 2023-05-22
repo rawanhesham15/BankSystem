@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qB18zxAkqX2OXa6t++DjTFW1tgZwr983r+BZxOGLXRLJkBqTsY/oOw5Ayvj8QOo8QeHegCRp8s+nUMnXYxkuuQ==",
+  "dgSpecHash": "V2+0xzDgUf6F9k3NrGJHwCR0GSb5Upy0LxfJHNUnNi5rrKXFJIWqQmW3a+EyPg/3JVPfi4iSn5Shhbh6Jfes4g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dell\\Desktop\\Bank Systemtosend\\Bank System\\Bank System\\Bank System.csproj",
+  "projectFilePath": "C:\\Users\\Dell\\Desktop\\Bank System\\Bank System\\Bank System\\Bank System.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

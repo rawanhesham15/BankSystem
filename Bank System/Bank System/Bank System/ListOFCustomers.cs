@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Net.Mime.MediaTypeNames;
 
+
 namespace Bank_System
 {
     public partial class ListOfCustomers : Form
@@ -19,7 +20,7 @@ namespace Bank_System
             InitializeComponent();
             DisplayCustomers();
         }
-        SqlConnection Con = new SqlConnection("Data Source=DESKTOP-FJ2DD2M\\SQLEXPRESS01;Initial Catalog=bankSystem;Integrated Security=True");
+        SqlConnection Con = new SqlConnection("Data Source=DESKTOP-28TECAI;Initial Catalog=BankingSystem2;Integrated Security=True");
 
         private void DisplayCustomers()
         {
@@ -45,70 +46,92 @@ namespace Bank_System
 
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             ComponentResourceManager resources = new ComponentResourceManager(typeof(ListOfCustomers));
-            textBox1 = new TextBox();
             listDGV = new DataGridView();
-            exitbox = new PictureBox();
+            label2 = new Label();
+            pictureBox1 = new PictureBox();
+            pictureBox2 = new PictureBox();
+            pictureBox3 = new PictureBox();
             ((ISupportInitialize)listDGV).BeginInit();
-            ((ISupportInitialize)exitbox).BeginInit();
+            ((ISupportInitialize)pictureBox1).BeginInit();
+            ((ISupportInitialize)pictureBox2).BeginInit();
+            ((ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
-            // 
-            // textBox1
-            // 
-            textBox1.BackColor = SystemColors.ActiveCaption;
-            textBox1.Font = new Font("Segoe UI Black", 16F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox1.ForeColor = SystemColors.InfoText;
-            textBox1.Location = new Point(340, 62);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(392, 51);
-            textBox1.TabIndex = 0;
-            textBox1.Text = "   List OF Customers";
-            textBox1.TextChanged += textBox1_TextChanged_1;
             // 
             // listDGV
             // 
-            listDGV.BackgroundColor = SystemColors.ActiveCaption;
+            listDGV.BackgroundColor = SystemColors.Control;
             listDGV.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            listDGV.Location = new Point(126, 201);
+            listDGV.Location = new Point(88, 110);
             listDGV.Name = "listDGV";
-            listDGV.RowHeadersWidth = 62;
-            dataGridViewCellStyle1.ForeColor = SystemColors.ActiveCaptionText;
-            dataGridViewCellStyle1.SelectionBackColor = SystemColors.ButtonFace;
-            dataGridViewCellStyle1.SelectionForeColor = SystemColors.ActiveCaption;
-            listDGV.RowsDefaultCellStyle = dataGridViewCellStyle1;
-            listDGV.RowTemplate.Height = 35;
-            listDGV.Size = new Size(806, 366);
-            listDGV.TabIndex = 1;
+            listDGV.RowTemplate.Height = 25;
+            listDGV.Size = new Size(713, 346);
+            listDGV.TabIndex = 12;
             // 
-            // exitbox
+            // label2
             // 
-            exitbox.BackgroundImage = (System.Drawing.Image)resources.GetObject("exitbox.BackgroundImage");
-            exitbox.BackgroundImageLayout = ImageLayout.Zoom;
-            exitbox.Image = (System.Drawing.Image)resources.GetObject("exitbox.Image");
-            exitbox.Location = new Point(982, 38);
-            exitbox.Margin = new Padding(4, 5, 4, 5);
-            exitbox.Name = "exitbox";
-            exitbox.Size = new Size(73, 56);
-            exitbox.SizeMode = PictureBoxSizeMode.Zoom;
-            exitbox.TabIndex = 11;
-            exitbox.TabStop = false;
-            exitbox.Click += pictureBox1_Click;
+            label2.AutoSize = true;
+            label2.Font = new Font("Britannic Bold", 26.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.ForeColor = SystemColors.ActiveCaptionText;
+            label2.Location = new Point(306, 30);
+            label2.Name = "label2";
+            label2.Size = new Size(289, 38);
+            label2.TabIndex = 13;
+            label2.Text = "List of Customers";
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.BackgroundImage = (System.Drawing.Image)resources.GetObject("pictureBox1.BackgroundImage");
+            pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureBox1.Image = (System.Drawing.Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(836, 2);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(46, 34);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 14;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click_1;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.BackgroundImage = (System.Drawing.Image)resources.GetObject("pictureBox2.BackgroundImage");
+            pictureBox2.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureBox2.Location = new Point(233, 12);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(80, 56);
+            pictureBox2.TabIndex = 15;
+            pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.BackgroundImage = (System.Drawing.Image)resources.GetObject("pictureBox3.BackgroundImage");
+            pictureBox3.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureBox3.Location = new Point(1, 2);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(46, 34);
+            pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox3.TabIndex = 70;
+            pictureBox3.TabStop = false;
+            pictureBox3.Click += pictureBox3_Click;
             // 
             // ListOfCustomers
             // 
             BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(1089, 659);
-            Controls.Add(exitbox);
+            ClientSize = new Size(882, 496);
+            Controls.Add(pictureBox3);
+            Controls.Add(pictureBox2);
+            Controls.Add(pictureBox1);
+            Controls.Add(label2);
             Controls.Add(listDGV);
-            Controls.Add(textBox1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "ListOfCustomers";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "ListOfCustomers";
             Load += ListOfCustomers_Load;
             ((ISupportInitialize)listDGV).EndInit();
-            ((ISupportInitialize)exitbox).EndInit();
+            ((ISupportInitialize)pictureBox1).EndInit();
+            ((ISupportInitialize)pictureBox2).EndInit();
+            ((ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -116,9 +139,6 @@ namespace Bank_System
         private void textBox1_TextChanged_1(object sender, EventArgs e)
         {
         }
-
-        private TextBox textBox1;
-        private DataGridView listDGV;
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
@@ -130,6 +150,27 @@ namespace Bank_System
 
         }
 
-        private PictureBox exitbox;
+        private void listDGV_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+            //Application.Exit();
+        }
+
+        private DataGridView listDGV;
+        private Label label2;
+        private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
+        private PictureBox pictureBox3;
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            EmployeeMenu obj = new EmployeeMenu();
+            obj.Show();
+            this.Hide();
+        }
     }
 }

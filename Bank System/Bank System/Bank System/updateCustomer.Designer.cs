@@ -30,288 +30,333 @@
         {
             TextBox phonetoupdate;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(updateCustomer));
-            SSNupdate = new TextBox();
-            textBox1 = new TextBox();
-            textBox3 = new TextBox();
             updateGrid = new DataGridView();
-            search = new Button();
             pictureBox1 = new PictureBox();
-            button1 = new Button();
-            button2 = new Button();
-            textBox2 = new TextBox();
             nameToUpdate = new TextBox();
-            ssntoupdate = new TextBox();
-            textBox7 = new TextBox();
-            textBox8 = new TextBox();
-            textBox9 = new TextBox();
             CityToupdate = new TextBox();
             StreetToupdate = new TextBox();
             buildingtoupdate = new TextBox();
             updatessn = new TextBox();
-            textBox5 = new TextBox();
+            pictureBox2 = new PictureBox();
+            label2 = new Label();
+            label1 = new Label();
+            SSNupdate = new TextBox();
+            search = new Button();
+            label3 = new Label();
+            label4 = new Label();
+            label5 = new Label();
+            label6 = new Label();
+            label7 = new Label();
+            label8 = new Label();
+            button2 = new Button();
+            button1 = new Button();
+            pictureBox3 = new PictureBox();
             phonetoupdate = new TextBox();
             ((System.ComponentModel.ISupportInitialize)updateGrid).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
             // 
             // phonetoupdate
             // 
             phonetoupdate.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            phonetoupdate.Location = new Point(191, 555);
+            phonetoupdate.Location = new Point(120, 361);
+            phonetoupdate.Margin = new Padding(2);
             phonetoupdate.Name = "phonetoupdate";
-            phonetoupdate.Size = new Size(203, 45);
+            phonetoupdate.Size = new Size(163, 32);
             phonetoupdate.TabIndex = 80;
-            // 
-            // SSNupdate
-            // 
-            SSNupdate.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            SSNupdate.Location = new Point(355, 131);
-            SSNupdate.Name = "SSNupdate";
-            SSNupdate.Size = new Size(109, 45);
-            SSNupdate.TabIndex = 70;
-            // 
-            // textBox1
-            // 
-            textBox1.BackColor = SystemColors.ActiveCaption;
-            textBox1.Font = new Font("Segoe UI Black", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox1.Location = new Point(46, 131);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(239, 45);
-            textBox1.TabIndex = 71;
-            textBox1.Text = "Customer's SSN:";
-            // 
-            // textBox3
-            // 
-            textBox3.BackColor = SystemColors.ActiveCaption;
-            textBox3.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox3.Location = new Point(252, 33);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(307, 55);
-            textBox3.TabIndex = 72;
-            textBox3.Text = "Update Customer";
             // 
             // updateGrid
             // 
             updateGrid.BackgroundColor = SystemColors.ButtonFace;
             updateGrid.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            updateGrid.Location = new Point(36, 214);
+            updateGrid.Location = new Point(78, 151);
+            updateGrid.Margin = new Padding(2);
             updateGrid.Name = "updateGrid";
             updateGrid.RowHeadersWidth = 62;
             updateGrid.RowTemplate.Height = 35;
-            updateGrid.Size = new Size(836, 143);
+            updateGrid.Size = new Size(543, 86);
             updateGrid.TabIndex = 73;
             updateGrid.CellContentClick += updateGrid_CellContentClick;
-            // 
-            // search
-            // 
-            search.BackColor = SystemColors.ActiveCaption;
-            search.Font = new Font("Segoe UI Black", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            search.Location = new Point(541, 131);
-            search.Name = "search";
-            search.Size = new Size(112, 41);
-            search.TabIndex = 74;
-            search.Text = "Search";
-            search.UseVisualStyleBackColor = false;
-            search.Click += search_Click;
             // 
             // pictureBox1
             // 
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(862, 32);
-            pictureBox1.Margin = new Padding(4, 5, 4, 5);
+            pictureBox1.Location = new Point(656, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(73, 56);
+            pictureBox1.Size = new Size(46, 34);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 75;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
             // 
-            // button1
-            // 
-            button1.BackColor = SystemColors.ActiveCaption;
-            button1.Font = new Font("Segoe UI Black", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            button1.Location = new Point(282, 683);
-            button1.Name = "button1";
-            button1.Size = new Size(112, 41);
-            button1.TabIndex = 76;
-            button1.Text = "Delete";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
-            // 
-            // button2
-            // 
-            button2.BackColor = SystemColors.ActiveCaption;
-            button2.Font = new Font("Segoe UI Black", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            button2.Location = new Point(572, 683);
-            button2.Name = "button2";
-            button2.Size = new Size(112, 41);
-            button2.TabIndex = 77;
-            button2.Text = "Update";
-            button2.UseVisualStyleBackColor = false;
-            button2.Click += button2_Click;
-            // 
-            // textBox2
-            // 
-            textBox2.BackColor = SystemColors.ActiveCaption;
-            textBox2.Font = new Font("Segoe UI Black", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox2.Location = new Point(46, 383);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(113, 45);
-            textBox2.TabIndex = 78;
-            textBox2.Text = "Name:";
-            // 
             // nameToUpdate
             // 
             nameToUpdate.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            nameToUpdate.Location = new Point(191, 383);
+            nameToUpdate.Location = new Point(120, 258);
+            nameToUpdate.Margin = new Padding(2);
             nameToUpdate.Name = "nameToUpdate";
-            nameToUpdate.Size = new Size(197, 45);
+            nameToUpdate.Size = new Size(163, 32);
             nameToUpdate.TabIndex = 79;
-            // 
-            // ssntoupdate
-            // 
-            ssntoupdate.BackColor = SystemColors.ActiveCaption;
-            ssntoupdate.Font = new Font("Segoe UI Black", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            ssntoupdate.Location = new Point(46, 457);
-            ssntoupdate.Name = "ssntoupdate";
-            ssntoupdate.Size = new Size(113, 45);
-            ssntoupdate.TabIndex = 81;
-            ssntoupdate.Text = "SSN:";
-            // 
-            // textBox7
-            // 
-            textBox7.BackColor = SystemColors.ActiveCaption;
-            textBox7.Font = new Font("Segoe UI Black", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox7.Location = new Point(439, 383);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(120, 45);
-            textBox7.TabIndex = 82;
-            textBox7.Text = "City:";
-            textBox7.TextChanged += textBox7_TextChanged;
-            // 
-            // textBox8
-            // 
-            textBox8.BackColor = SystemColors.ActiveCaption;
-            textBox8.Font = new Font("Segoe UI Black", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox8.Location = new Point(439, 555);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(239, 45);
-            textBox8.TabIndex = 83;
-            textBox8.Text = "Building Num:";
-            // 
-            // textBox9
-            // 
-            textBox9.BackColor = SystemColors.ActiveCaption;
-            textBox9.Font = new Font("Segoe UI Black", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox9.Location = new Point(439, 467);
-            textBox9.Name = "textBox9";
-            textBox9.Size = new Size(120, 45);
-            textBox9.TabIndex = 84;
-            textBox9.Text = "Street:";
-            textBox9.TextChanged += textBox9_TextChanged;
             // 
             // CityToupdate
             // 
             CityToupdate.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            CityToupdate.Location = new Point(651, 383);
+            CityToupdate.Location = new Point(449, 258);
+            CityToupdate.Margin = new Padding(2);
             CityToupdate.Name = "CityToupdate";
-            CityToupdate.Size = new Size(197, 45);
+            CityToupdate.Size = new Size(172, 32);
             CityToupdate.TabIndex = 85;
             // 
             // StreetToupdate
             // 
             StreetToupdate.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            StreetToupdate.Location = new Point(651, 467);
+            StreetToupdate.Location = new Point(449, 308);
+            StreetToupdate.Margin = new Padding(2);
             StreetToupdate.Name = "StreetToupdate";
-            StreetToupdate.Size = new Size(197, 45);
+            StreetToupdate.Size = new Size(172, 32);
             StreetToupdate.TabIndex = 86;
             // 
             // buildingtoupdate
             // 
             buildingtoupdate.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            buildingtoupdate.Location = new Point(711, 555);
+            buildingtoupdate.Location = new Point(450, 361);
+            buildingtoupdate.Margin = new Padding(2);
             buildingtoupdate.Name = "buildingtoupdate";
-            buildingtoupdate.Size = new Size(137, 45);
+            buildingtoupdate.Size = new Size(171, 32);
             buildingtoupdate.TabIndex = 87;
             // 
             // updatessn
             // 
             updatessn.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            updatessn.Location = new Point(197, 467);
+            updatessn.Location = new Point(120, 308);
+            updatessn.Margin = new Padding(2);
             updatessn.Name = "updatessn";
-            updatessn.Size = new Size(197, 45);
+            updatessn.Size = new Size(163, 32);
             updatessn.TabIndex = 88;
             // 
-            // textBox5
+            // pictureBox2
             // 
-            textBox5.BackColor = SystemColors.ActiveCaption;
-            textBox5.Font = new Font("Segoe UI Black", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox5.Location = new Point(46, 555);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(113, 45);
-            textBox5.TabIndex = 89;
-            textBox5.Text = "Phone:";
-            textBox5.TextChanged += textBox5_TextChanged;
+            pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
+            pictureBox2.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureBox2.Location = new Point(178, 11);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(66, 45);
+            pictureBox2.TabIndex = 91;
+            pictureBox2.TabStop = false;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Britannic Bold", 26.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.ForeColor = SystemColors.ActiveCaptionText;
+            label2.Location = new Point(238, 18);
+            label2.Name = "label2";
+            label2.Size = new Size(282, 38);
+            label2.TabIndex = 90;
+            label2.Text = "Update Customer";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.ForeColor = SystemColors.ActiveCaptionText;
+            label1.Location = new Point(120, 78);
+            label1.Name = "label1";
+            label1.Size = new Size(176, 27);
+            label1.TabIndex = 93;
+            label1.Text = "Customer's SSN";
+            // 
+            // SSNupdate
+            // 
+            SSNupdate.Location = new Point(120, 108);
+            SSNupdate.Name = "SSNupdate";
+            SSNupdate.Size = new Size(248, 23);
+            SSNupdate.TabIndex = 92;
+            // 
+            // search
+            // 
+            search.BackColor = SystemColors.ButtonHighlight;
+            search.Font = new Font("Britannic Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            search.ForeColor = SystemColors.ActiveCaptionText;
+            search.Location = new Point(440, 99);
+            search.Name = "search";
+            search.Size = new Size(123, 32);
+            search.TabIndex = 94;
+            search.Text = "Search";
+            search.UseVisualStyleBackColor = false;
+            search.Click += search_Click_1;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.ForeColor = SystemColors.ActiveCaptionText;
+            label3.Location = new Point(50, 258);
+            label3.Name = "label3";
+            label3.Size = new Size(71, 27);
+            label3.TabIndex = 95;
+            label3.Text = "Name";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.ForeColor = SystemColors.ActiveCaptionText;
+            label4.Location = new Point(69, 308);
+            label4.Name = "label4";
+            label4.Size = new Size(52, 27);
+            label4.TabIndex = 96;
+            label4.Text = "SSN";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            label5.ForeColor = SystemColors.ActiveCaptionText;
+            label5.Location = new Point(42, 363);
+            label5.Name = "label5";
+            label5.Size = new Size(79, 27);
+            label5.TabIndex = 97;
+            label5.Text = "Phone";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            label6.ForeColor = SystemColors.ActiveCaptionText;
+            label6.Location = new Point(394, 259);
+            label6.Name = "label6";
+            label6.Size = new Size(52, 27);
+            label6.TabIndex = 98;
+            label6.Text = "City";
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            label7.ForeColor = SystemColors.ActiveCaptionText;
+            label7.Location = new Point(371, 312);
+            label7.Name = "label7";
+            label7.Size = new Size(75, 27);
+            label7.TabIndex = 99;
+            label7.Text = "Street";
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            label8.ForeColor = SystemColors.ActiveCaptionText;
+            label8.Location = new Point(310, 365);
+            label8.Name = "label8";
+            label8.Size = new Size(136, 27);
+            label8.TabIndex = 100;
+            label8.Text = "Building No";
+            // 
+            // button2
+            // 
+            button2.BackColor = SystemColors.ButtonHighlight;
+            button2.Font = new Font("Britannic Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            button2.ForeColor = SystemColors.ActiveCaptionText;
+            button2.Location = new Point(360, 420);
+            button2.Name = "button2";
+            button2.Size = new Size(123, 32);
+            button2.TabIndex = 101;
+            button2.Text = "Update";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click_1;
+            // 
+            // button1
+            // 
+            button1.BackColor = SystemColors.ButtonHighlight;
+            button1.Font = new Font("Britannic Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            button1.ForeColor = SystemColors.ActiveCaptionText;
+            button1.Location = new Point(198, 420);
+            button1.Name = "button1";
+            button1.Size = new Size(123, 32);
+            button1.TabIndex = 102;
+            button1.Text = "Delete";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.BackgroundImage = (Image)resources.GetObject("pictureBox3.BackgroundImage");
+            pictureBox3.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureBox3.Location = new Point(0, 2);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(46, 34);
+            pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox3.TabIndex = 103;
+            pictureBox3.TabStop = false;
+            pictureBox3.Click += pictureBox3_Click;
             // 
             // updateCustomer
             // 
-            AutoScaleDimensions = new SizeF(11F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(1000, 800);
-            Controls.Add(textBox5);
+            ClientSize = new Size(703, 473);
+            Controls.Add(pictureBox3);
+            Controls.Add(button1);
+            Controls.Add(button2);
+            Controls.Add(label8);
+            Controls.Add(label7);
+            Controls.Add(label6);
+            Controls.Add(label5);
+            Controls.Add(label4);
+            Controls.Add(label3);
+            Controls.Add(search);
+            Controls.Add(label1);
+            Controls.Add(SSNupdate);
+            Controls.Add(pictureBox2);
+            Controls.Add(label2);
             Controls.Add(updatessn);
             Controls.Add(buildingtoupdate);
             Controls.Add(StreetToupdate);
             Controls.Add(CityToupdate);
-            Controls.Add(textBox9);
-            Controls.Add(textBox8);
-            Controls.Add(textBox7);
-            Controls.Add(ssntoupdate);
             Controls.Add(phonetoupdate);
             Controls.Add(nameToUpdate);
-            Controls.Add(textBox2);
-            Controls.Add(button2);
-            Controls.Add(button1);
             Controls.Add(pictureBox1);
-            Controls.Add(search);
             Controls.Add(updateGrid);
-            Controls.Add(textBox3);
-            Controls.Add(textBox1);
-            Controls.Add(SSNupdate);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(2);
             Name = "updateCustomer";
             Text = "updateCustomer";
             Load += updateCustomer_Load;
             ((System.ComponentModel.ISupportInitialize)updateGrid).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private TextBox SSNupdate;
-        private TextBox textBox1;
-        private TextBox textBox3;
         private DataGridView updateGrid;
-        private Button search;
         private PictureBox pictureBox1;
-        private Button button1;
-        private Button button2;
-        private TextBox textBox2;
         private TextBox nameToUpdate;
         private TextBox phonetoupdate;
-        private TextBox ssntoupdate;
-        private TextBox textBox7;
-        private TextBox textBox8;
-        private TextBox textBox9;
         private TextBox CityToupdate;
         private TextBox StreetToupdate;
         private TextBox buildingtoupdate;
         private TextBox updatessn;
-        private TextBox textBox5;
+        private PictureBox pictureBox2;
+        private Label label2;
+        private Label label1;
+        private TextBox SSNupdate;
+        private Button search;
+        private Label label3;
+        private Label label4;
+        private Label label5;
+        private Label label6;
+        private Label label7;
+        private Label label8;
+        private Button button2;
+        private Button button1;
+        private PictureBox pictureBox3;
     }
 }
