@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Bank System"
   ],
-  "SelectedNode": "\\AddBank.cs",
+  "SelectedNode": "\\Bank System\\AddBranch.cs",
   "PreviewInSolutionExplorer": false
 }
