@@ -17,7 +17,9 @@ namespace Bank_System
         public updateCustomer()
         {
             InitializeComponent();
+            showCustomers();
         }
+
         SqlConnection Con = new SqlConnection("Data Source=DESKTOP-28TECAI;Initial Catalog=BankingSystem2;Integrated Security=True");
 
         private void updateCustomer_Load(object sender, EventArgs e)
@@ -51,6 +53,14 @@ namespace Bank_System
             this.Hide();
         }
 
+        private void showCustomers()
+        {
+            SqlDataAdapter adb = new SqlDataAdapter("select * from customer", Con);
+            DataTable dt = new DataTable();
+            adb.Fill(dt);
+            updateGrid.DataSource = dt;
+        }
+
         private void search_Click_1(object sender, EventArgs e)
         {
             if (SSNupdate.Text == "")
@@ -61,16 +71,21 @@ namespace Bank_System
             {
                 try
                 {
-                    Con.Open();
-                    string Query = "select * from Customer where SSN = " + SSNupdate.Text;
+                    //Con.Open();
+                    //string Query = "select * from Customer where SSN = " + SSNupdate.Text;
+                    //SqlDataAdapter sda = new SqlDataAdapter(Query, Con);
+                    //SqlCommandBuilder Build = new SqlCommandBuilder(sda);
+                    //var ds = new DataSet();
+                    //sda.Fill(ds);
+                    //updateGrid.DataSource = ds.Tables[0];
+                    //SqlCommand cmd = new SqlCommand();
+                    //cmd.CommandText = "select * from customer where SSN = '"+ SSNupdate.Text + "'";
+                    SqlDataAdapter sda = new SqlDataAdapter("select * from customer where SSN = '" + SSNupdate.Text + "'", Con);
+                    DataTable dt = new DataTable();
+                    sda.Fill(dt);
+                    SearchResult.DataSource = dt;
 
-                    SqlDataAdapter sda = new SqlDataAdapter(Query, Con);
-                    SqlCommandBuilder Build = new SqlCommandBuilder(sda);
-                    var ds = new DataSet();
-                    sda.Fill(ds);
-                    updateGrid.DataSource = ds.Tables[0];
-
-                    Con.Close();
+                    //Con.Close();
                 }
                 catch (Exception ex) { }
             }
@@ -111,5 +126,29 @@ namespace Bank_System
             var ds = new DataSet();
             sda.Fill(ds);
         }
+
+        private void SearchResult_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            //DataGridView dgv = new DataGridView();
+            //dgv = SearchResult;
+            //updatessn.Text = dgv.CurrentRow.Cells[0].Value.ToString();
+            //nameToUpdate.Text = dgv.CurrentRow.Cells[2].Value.ToString();
+            //CityToupdate.Text = dgv.CurrentRow.Cells[3].Value.ToString();
+            //StreetToupdate.Text = dgv.CurrentRow.Cells[4].Value.ToString();
+            //buildingtoupdate.Text = dgv.CurrentRow.Cells[5].Value.ToString();
+            //phonetoupdate.Text = dgv.CurrentRow.Cells[6].Value.ToString();
+
+            //txt_Name.Text = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
+
+            updatessn.Text = SearchResult.Rows[e.RowIndex].Cells[0].Value.ToString();
+            nameToUpdate.Text = SearchResult.Rows[e.RowIndex].Cells[2].Value.ToString();
+            CityToupdate.Text = SearchResult.Rows[e.RowIndex].Cells[3].Value.ToString();
+            StreetToupdate.Text = SearchResult.Rows[e.RowIndex].Cells[4].Value.ToString();
+            buildingtoupdate.Text = SearchResult.Rows[e.RowIndex].Cells[5].Value.ToString();
+            phonetoupdate.Text = SearchResult.Rows[e.RowIndex].Cells[6].Value.ToString();
+        }
+
+        private void SearchResult_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        { }
     }
 }

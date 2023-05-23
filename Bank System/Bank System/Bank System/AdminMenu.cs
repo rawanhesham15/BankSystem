@@ -42,5 +42,12 @@ namespace Bank_System
             obj.Show();
             this.Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Delete_Branch delete = new Delete_Branch();
+            delete.Show();
+            this.Hide();
+        }
     }
 }

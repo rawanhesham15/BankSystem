@@ -17,7 +17,7 @@ namespace Bank_System
         {
             InitializeComponent();
         }
-        SqlConnection Con = new SqlConnection("Data Source=DESKTOP-FJ2DD2M\\SQLEXPRESS01;Initial Catalog=bankSystem;Integrated Security=True");
+        SqlConnection Con = new SqlConnection("Data Source=DESKTOP-28TECAI;Initial Catalog=BankingSystem2;Integrated Security=True");
 
 
         private void Delete_Click(object sender, EventArgs e)
