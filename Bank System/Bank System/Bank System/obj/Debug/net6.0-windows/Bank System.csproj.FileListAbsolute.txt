@@ -194,3 +194,6 @@ C:\Users\Dell\Desktop\Bank System\Bank System\Bank System\obj\Debug\net6.0-windo
 C:\Users\Dell\Desktop\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.pdb
 C:\Users\Dell\Desktop\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.genruntimeconfig.cache
 C:\Users\Dell\Desktop\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\ref\Bank System.dll
+C:\BankSystem\bankclone\BankSystem\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.dll
+C:\BankSystem\bankclone\BankSystem\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\refint\Bank System.dll
+C:\BankSystem\bankclone\BankSystem\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\BankSystem\\Bank System\\Bank System\\Bank System.csproj": {}
+    "C:\\BankSystem\\bankclone\\BankSystem\\Bank System\\Bank System\\Bank System.csproj": {}
   },
   "projects": {
-    "C:\\BankSystem\\Bank System\\Bank System\\Bank System.csproj": {
+    "C:\\BankSystem\\bankclone\\BankSystem\\Bank System\\Bank System\\Bank System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\BankSystem\\Bank System\\Bank System\\Bank System.csproj",
+        "projectUniqueName": "C:\\BankSystem\\bankclone\\BankSystem\\Bank System\\Bank System\\Bank System.csproj",
         "projectName": "Bank System",
-        "projectPath": "C:\\BankSystem\\Bank System\\Bank System\\Bank System.csproj",
+        "projectPath": "C:\\BankSystem\\bankclone\\BankSystem\\Bank System\\Bank System\\Bank System.csproj",
         "packagesPath": "C:\\Users\\marwa\\.nuget\\packages\\",
-        "outputPath": "C:\\BankSystem\\Bank System\\Bank System\\obj\\",
+        "outputPath": "C:\\BankSystem\\bankclone\\BankSystem\\Bank System\\Bank System\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marwa\\AppData\\Roaming\\NuGet\\NuGet.Config",
