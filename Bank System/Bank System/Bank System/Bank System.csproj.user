@@ -25,10 +25,10 @@
     <Compile Update="ListOFCustomers.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="MakeLoan.cs">
+    <Compile Update="ListOfLoans.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Splash.cs">
+    <Compile Update="MakeLoan.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Login.cs">

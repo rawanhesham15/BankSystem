@@ -17,8 +17,7 @@ namespace Bank_System
         {
             InitializeComponent();
         }
-        SqlConnection Con = new SqlConnection("Data Source=DESKTOP-FJ2DD2M\\SQLEXPRESS01;Initial Catalog=bankSystem;Integrated Security=True");
-
+        SqlConnection Con = new SqlConnection("Data Source=DESKTOP-28TECAI;Initial Catalog=BankingSystem2;Integrated Security=True");
         private void textBox5_TextChanged(object sender, EventArgs e)
         {
 
@@ -55,33 +54,32 @@ namespace Bank_System
         private void search_Click(object sender, EventArgs e)
         {
 
-            if (codetoupdate.Text == "")
-            {
-                MessageBox.Show("Please enter bank's code");
-            }
-            else
-            {
-                try
-                {
-                    Con.Open();
-                    string Query = "select * from bank where code = " + codetoupdate.Text;
-
-                    SqlDataAdapter sda = new SqlDataAdapter(Query, Con);
-                    SqlCommandBuilder Build = new SqlCommandBuilder(sda);
-                    var ds = new DataSet();
-                    sda.Fill(ds);
-                    updateGrid.DataSource = ds.Tables[0];
-
-                    Con.Close();
-                }
-                catch (Exception ex) { }
-            }
         }
 
-        private void updatebtn_Click(object sender, EventArgs e)
+        private void updateStreet_TextChanged(object sender, EventArgs e)
         {
 
+        }
 
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            AdminMenu obj = new AdminMenu();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void updateBank_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click()
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
             try
             {
                 Con.Open();
@@ -102,6 +100,42 @@ namespace Bank_System
             {
                 MessageBox.Show(ex.Message);
 
+            }
+        }
+
+        private void updateGrid_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            updatecode.Text = updateGrid.Rows[e.RowIndex].Cells[0].Value.ToString();
+            updatecode.ReadOnly = true;
+            updatecity.Text = updateGrid.Rows[e.RowIndex].Cells[3].Value.ToString();
+            updateName.Text = updateGrid.Rows[e.RowIndex].Cells[2].Value.ToString();
+            updateStreet.Text = updateGrid.Rows[e.RowIndex].Cells[4].Value.ToString();
+            updatebuild.Text = updateGrid.Rows[e.RowIndex].Cells[5].Value.ToString();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            if (codetoupdate.Text == "")
+            {
+                MessageBox.Show("Please enter bank's code");
+            }
+            else
+            {
+                try
+                {
+                    Con.Open();
+                    string Query = "select * from bank where code = " + codetoupdate.Text;
+
+                    SqlDataAdapter sda = new SqlDataAdapter(Query, Con);
+                    SqlCommandBuilder Build = new SqlCommandBuilder(sda);
+                    var ds = new DataSet();
+                    sda.Fill(ds);
+                    updateGrid.DataSource = ds.Tables[0];
+
+                    Con.Close();
+                }
+                catch (Exception ex) { }
             }
         }
     }

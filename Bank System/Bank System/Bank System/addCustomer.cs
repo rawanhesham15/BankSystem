@@ -21,8 +21,7 @@ namespace Bank_System
             DisplayCustomers();
         }
 
-        SqlConnection Con = new SqlConnection("Data Source=DESKTOP-28TECAI;Initial Catalog=BankingSystem2;Integrated Security=True");
-        private void DisplayCustomers()
+        SqlConnection Con = new SqlConnection("Data Source=DESKTOP-28TECAI;Initial Catalog=BankingSystem2;Integrated Security=True"); private void DisplayCustomers()
         {
             Con.Open();
             string Query = "select * from customer";
@@ -99,6 +98,7 @@ namespace Bank_System
                 {
                     Con.Open();
                     SqlCommand cmd = new SqlCommand("insert into customer(SSN,empSSN,Name,City,Street,BuildingNo,phone)values(@SNN,@empSSN,@AN,@City,@S,@BN,@PN)", Con);
+                    
                     cmd.Parameters.AddWithValue("@AN", cusNameTb.Text);
                     cmd.Parameters.AddWithValue("@S", cusStreetTb.Text);
                     cmd.Parameters.AddWithValue("@SNN", cusSSNTb.Text);
@@ -110,24 +110,23 @@ namespace Bank_System
                     cmd.ExecuteNonQuery();
 
                     SqlCommand cmd2 = new SqlCommand("insert into account(acctno, ssn, acctype, balance) values (@accNo, @ssn, @acctype, @balance)", Con);
+                    
                     cmd2.Parameters.AddWithValue("@accNo", accNo.Text);
                     cmd2.Parameters.AddWithValue("@ssn", cusSSNTb.Text);
                     cmd2.Parameters.AddWithValue("@accType", accType.Text);
                     cmd2.Parameters.AddWithValue("@balance", balance.Text);
-                    
+
                     cmd2.ExecuteNonQuery();
 
-                    string branch = "select branchno from employee, customer where customer.empssn = employee.empssn";
-                    string bank = "select bankcode from employee, customer where customer.empssn = employee.empssn";
-                    SqlCommand cmd3 = new SqlCommand("insert into serve(bra_branchno,bra_bankcode,cus_ssn,branchno,bankcode,ssn)values(@BNPK,@bankNPK,@ssnPK,@BN,@bank,@ssn)", Con);
+                    SqlCommand cmd3 = new SqlCommand("insert into serve(Bra_BranchNo, Bra_BankCode, Cus_SSN, branchNo, bankCode, SSN) values (@BNPK, @bankNPK, @ssnPK, @BN, @bank, @ssn)", Con);
                     
-                    cmd3.Parameters.AddWithValue("@BNPK", Int16.Parse(branch));
-                    cmd3.Parameters.AddWithValue("@bankNPK", Int16.Parse(bank));
+                    cmd3.Parameters.AddWithValue("@BNPK", branchNum.Text);
+                    cmd3.Parameters.AddWithValue("@bankNPK", bankCode.Text);
                     cmd3.Parameters.AddWithValue("@ssnPK", cusSSNTb.Text);
-                    cmd3.Parameters.AddWithValue("@BN", Int16.Parse(branch));
-                    cmd3.Parameters.AddWithValue("@bank", Int16.Parse(bank));
+                    cmd3.Parameters.AddWithValue("@BN", branchNum.Text);
+                    cmd3.Parameters.AddWithValue("@bank", bankCode.Text);
                     cmd3.Parameters.AddWithValue("@ssn", cusSSNTb.Text);
-                    
+
                     cmd3.ExecuteNonQuery();
 
                     MessageBox.Show("Customer Added!!");

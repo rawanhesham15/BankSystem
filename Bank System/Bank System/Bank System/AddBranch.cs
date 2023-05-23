@@ -16,10 +16,10 @@ namespace Bank_System
         public AddBranch()
         {
             InitializeComponent();
+            DisplayBranches();
         }
 
         SqlConnection Con = new SqlConnection("Data Source=DESKTOP-28TECAI;Initial Catalog=BankingSystem2;Integrated Security=True");
-
         private void pictureBox2_Click(object sender, EventArgs e)
         {
 
@@ -138,7 +138,7 @@ namespace Bank_System
                     MessageBox.Show("branch Added!!");
                     Con.Close();
                     Reset();
-                    // DisplayCustomers();
+                    DisplayBranches();
 
                 }
                 catch (Exception ex)
@@ -178,6 +178,19 @@ namespace Bank_System
             AdminMenu obj = new AdminMenu();
             obj.Show();
             this.Hide();
+        }
+
+        private void DisplayBranches()
+        {
+            Con.Open();
+            string Query = "select * from Branch";
+            SqlDataAdapter sda = new SqlDataAdapter(Query, Con);
+            SqlCommandBuilder Build = new SqlCommandBuilder(sda);
+            var ds = new DataSet();
+            sda.Fill(ds);
+            branches.DataSource = ds.Tables[0];
+
+            Con.Close();
         }
     }
 }

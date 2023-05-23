@@ -54,5 +54,17 @@ namespace Bank_System
         {
             Application.Exit();
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            ListOfLoans obj = new ListOfLoans();
+            obj.Show(); 
+            this.Hide();
+        }
     }
 }

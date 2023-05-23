@@ -13,6 +13,54 @@
     <Compile Update="AdminMenu.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Bank System\addAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Bank System\AddBank.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Bank System\AddBranch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Bank System\addCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Bank System\AdminMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Bank System\CustomerMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Bank System\Delete Branch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Bank System\EmployeeMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Bank System\ListOFCustomers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Bank System\ListOfLoans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Bank System\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Bank System\MakeLoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Bank System\Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Bank System\Statistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Bank System\updateBank.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Bank System\updateCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="CustomerMenu.cs">
       <SubType>Form</SubType>
     </Compile>

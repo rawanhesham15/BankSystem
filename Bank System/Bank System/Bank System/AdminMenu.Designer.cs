@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminMenu));
             panel1 = new Panel();
+            button4 = new Button();
+            button3 = new Button();
             pictureBox3 = new PictureBox();
             pictureBox1 = new PictureBox();
             button2 = new Button();
@@ -37,7 +39,7 @@
             button1 = new Button();
             label1 = new Label();
             label2 = new Label();
-            button3 = new Button();
+            button5 = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -47,6 +49,8 @@
             // panel1
             // 
             panel1.BackColor = SystemColors.ActiveCaption;
+            panel1.Controls.Add(button5);
+            panel1.Controls.Add(button4);
             panel1.Controls.Add(button3);
             panel1.Controls.Add(pictureBox3);
             panel1.Controls.Add(pictureBox1);
@@ -59,6 +63,33 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(776, 426);
             panel1.TabIndex = 1;
+            panel1.Paint += panel1_Paint;
+            // 
+            // button4
+            // 
+            button4.BackColor = SystemColors.ControlLightLight;
+            button4.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            button4.ForeColor = SystemColors.ActiveCaptionText;
+            button4.Location = new Point(290, 156);
+            button4.Name = "button4";
+            button4.Size = new Size(207, 55);
+            button4.TabIndex = 14;
+            button4.Text = "update Bank";
+            button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
+            // 
+            // button3
+            // 
+            button3.BackColor = SystemColors.ControlLightLight;
+            button3.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            button3.ForeColor = SystemColors.ActiveCaptionText;
+            button3.Location = new Point(290, 278);
+            button3.Name = "button3";
+            button3.Size = new Size(207, 55);
+            button3.TabIndex = 13;
+            button3.Text = "Delete Branch";
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // pictureBox3
             // 
@@ -90,7 +121,7 @@
             button2.BackColor = SystemColors.ControlLightLight;
             button2.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
             button2.ForeColor = SystemColors.ActiveCaptionText;
-            button2.Location = new Point(279, 204);
+            button2.Location = new Point(290, 217);
             button2.Name = "button2";
             button2.Size = new Size(207, 55);
             button2.TabIndex = 9;
@@ -113,7 +144,7 @@
             button1.BackColor = SystemColors.ControlLightLight;
             button1.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
             button1.ForeColor = SystemColors.ActiveCaptionText;
-            button1.Location = new Point(279, 123);
+            button1.Location = new Point(290, 95);
             button1.Name = "button1";
             button1.Size = new Size(207, 55);
             button1.TabIndex = 6;
@@ -142,18 +173,18 @@
             label2.TabIndex = 4;
             label2.Text = "Admin Functions";
             // 
-            // button3
+            // button5
             // 
-            button3.BackColor = SystemColors.ControlLightLight;
-            button3.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            button3.ForeColor = SystemColors.ActiveCaptionText;
-            button3.Location = new Point(279, 287);
-            button3.Name = "button3";
-            button3.Size = new Size(207, 55);
-            button3.TabIndex = 13;
-            button3.Text = "Delete Branch";
-            button3.UseVisualStyleBackColor = false;
-            button3.Click += button3_Click;
+            button5.BackColor = SystemColors.ControlLightLight;
+            button5.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            button5.ForeColor = SystemColors.ActiveCaptionText;
+            button5.Location = new Point(290, 339);
+            button5.Name = "button5";
+            button5.Size = new Size(207, 55);
+            button5.TabIndex = 15;
+            button5.Text = "View Statistics";
+            button5.UseVisualStyleBackColor = false;
+            button5.Click += button5_Click;
             // 
             // AdminMenu
             // 
@@ -184,5 +215,7 @@
         private PictureBox pictureBox1;
         private PictureBox pictureBox3;
         private Button button3;
+        private Button button4;
+        private Button button5;
     }
 }

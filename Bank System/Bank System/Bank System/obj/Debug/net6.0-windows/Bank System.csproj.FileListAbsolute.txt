@@ -194,6 +194,154 @@ C:\Users\Dell\Desktop\Bank System\Bank System\Bank System\obj\Debug\net6.0-windo
 C:\Users\Dell\Desktop\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.pdb
 C:\Users\Dell\Desktop\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.genruntimeconfig.cache
 C:\Users\Dell\Desktop\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\ref\Bank System.dll
-C:\BankSystem\bankclone\BankSystem\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.dll
-C:\BankSystem\bankclone\BankSystem\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\refint\Bank System.dll
-C:\BankSystem\bankclone\BankSystem\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.pdb
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\Bank System.exe
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\Bank System.deps.json
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\Bank System.runtimeconfig.json
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\Bank System.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\Bank System.pdb
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\Microsoft.Win32.SystemEvents.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\System.Drawing.Common.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\System.Reactive.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\System.Reactive.Windows.Forms.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\System.Windows.Extensions.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\System.Windows.Forms.DataVisualization.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\System.Windows.Forms.Ribbon35.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.csproj.AssemblyReference.cache
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.csproj.ResolveComReference.cache
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.addAccount.resources
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.AddBank.resources
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.AddBranch.resources
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.addCustomer.resources
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.AdminMenu.resources
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.CustomerMenu.resources
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.Delete_Branch.resources
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.EmployeeMenu.resources
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.ListOfCustomers.resources
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.Login.resources
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.MakeLoan.resources
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.Properties.Resources.resources
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.Splash.resources
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.Statistics.resources
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.updateBank.resources
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.updateCustomer.resources
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.csproj.GenerateResource.cache
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.AssemblyInfoInputs.cache
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.AssemblyInfo.cs
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.csproj.CoreCompileInputs.cache
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.csproj.CopyComplete
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\refint\Bank System.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.pdb
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.genruntimeconfig.cache
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\ref\Bank System.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.ListOfLoans.resources
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\Bank System.exe
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\Bank System.deps.json
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\Bank System.runtimeconfig.json
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\Bank System.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\Bank System.pdb
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\Microsoft.Win32.SystemEvents.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\System.Drawing.Common.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\System.Reactive.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\System.Reactive.Windows.Forms.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\System.Windows.Extensions.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\System.Windows.Forms.DataVisualization.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\System.Windows.Forms.Ribbon35.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.csproj.AssemblyReference.cache
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.csproj.ResolveComReference.cache
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.addAccount.resources
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.AddBank.resources
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.AddBranch.resources
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.addCustomer.resources
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.AdminMenu.resources
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.CustomerMenu.resources
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.Delete_Branch.resources
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.EmployeeMenu.resources
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.ListOfCustomers.resources
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.ListOfLoans.resources
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.Login.resources
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.MakeLoan.resources
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.Properties.Resources.resources
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.Splash.resources
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.Statistics.resources
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.updateBank.resources
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.updateCustomer.resources
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.csproj.GenerateResource.cache
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.AssemblyInfoInputs.cache
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.AssemblyInfo.cs
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.csproj.CoreCompileInputs.cache
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.csproj.CopyComplete
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\refint\Bank System.dll
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.pdb
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.genruntimeconfig.cache
+C:\Users\marwa\Downloads\BankSystem-main\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\ref\Bank System.dll
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\Bank System.exe
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\Bank System.deps.json
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\Bank System.runtimeconfig.json
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\Bank System.dll
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\Bank System.pdb
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\Microsoft.Win32.SystemEvents.dll
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\System.Drawing.Common.dll
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\System.Reactive.dll
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\System.Reactive.Windows.Forms.dll
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\System.Windows.Extensions.dll
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\System.Windows.Forms.DataVisualization.dll
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\System.Windows.Forms.Ribbon35.dll
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.csproj.AssemblyReference.cache
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.csproj.ResolveComReference.cache
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.AddBank.resources
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.AddBranch.resources
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.addCustomer.resources
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.AdminMenu.resources
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.CustomerMenu.resources
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.Delete_Branch.resources
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.EmployeeMenu.resources
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.ListOfCustomers.resources
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.ListOfLoans.resources
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.Login.resources
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.MakeLoan.resources
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.Properties.Resources.resources
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.Statistics.resources
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.updateBank.resources
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank_System.updateCustomer.resources
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.csproj.GenerateResource.cache
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.AssemblyInfoInputs.cache
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.AssemblyInfo.cs
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.csproj.CopyComplete
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.dll
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\refint\Bank System.dll
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.pdb
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\Bank System.genruntimeconfig.cache
+C:\Users\Dell\Desktop\BankSystem-mainlwork\BankSystem-mainl\BankSystem-main\Bank System\Bank System\Bank System\obj\Debug\net6.0-windows\ref\Bank System.dll

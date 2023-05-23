@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            TextBox phonetoupdate;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(updateCustomer));
             updateGrid = new DataGridView();
             pictureBox1 = new PictureBox();
@@ -55,21 +54,14 @@
             label9 = new Label();
             label10 = new Label();
             phonetoupdate = new TextBox();
+            panel1 = new Panel();
             ((System.ComponentModel.ISupportInitialize)updateGrid).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)SearchResult).BeginInit();
+            panel1.SuspendLayout();
             SuspendLayout();
-            // 
-            // phonetoupdate
-            // 
-            phonetoupdate.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            phonetoupdate.Location = new Point(133, 551);
-            phonetoupdate.Margin = new Padding(2);
-            phonetoupdate.Name = "phonetoupdate";
-            phonetoupdate.Size = new Size(163, 32);
-            phonetoupdate.TabIndex = 80;
             // 
             // updateGrid
             // 
@@ -92,7 +84,7 @@
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(739, 2);
+            pictureBox1.Location = new Point(712, 3);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(46, 34);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -149,7 +141,7 @@
             // 
             pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
             pictureBox2.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox2.Location = new Point(223, 12);
+            pictureBox2.Location = new Point(214, 3);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(66, 45);
             pictureBox2.TabIndex = 91;
@@ -160,7 +152,7 @@
             label2.AutoSize = true;
             label2.Font = new Font("Britannic Bold", 26.25F, FontStyle.Regular, GraphicsUnit.Point);
             label2.ForeColor = SystemColors.ActiveCaptionText;
-            label2.Location = new Point(283, 19);
+            label2.Location = new Point(273, 7);
             label2.Name = "label2";
             label2.Size = new Size(282, 38);
             label2.TabIndex = 90;
@@ -171,7 +163,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
             label1.ForeColor = SystemColors.ActiveCaptionText;
-            label1.Location = new Point(143, 81);
+            label1.Location = new Point(131, 69);
             label1.Name = "label1";
             label1.Size = new Size(176, 27);
             label1.TabIndex = 93;
@@ -189,7 +181,7 @@
             search.BackColor = SystemColors.ButtonHighlight;
             search.Font = new Font("Britannic Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             search.ForeColor = SystemColors.ActiveCaptionText;
-            search.Location = new Point(511, 102);
+            search.Location = new Point(499, 90);
             search.Name = "search";
             search.Size = new Size(123, 32);
             search.TabIndex = 94;
@@ -202,7 +194,7 @@
             label3.AutoSize = true;
             label3.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
             label3.ForeColor = SystemColors.ActiveCaptionText;
-            label3.Location = new Point(63, 448);
+            label3.Location = new Point(51, 436);
             label3.Name = "label3";
             label3.Size = new Size(71, 27);
             label3.TabIndex = 95;
@@ -213,7 +205,7 @@
             label4.AutoSize = true;
             label4.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
             label4.ForeColor = SystemColors.ActiveCaptionText;
-            label4.Location = new Point(82, 498);
+            label4.Location = new Point(70, 486);
             label4.Name = "label4";
             label4.Size = new Size(52, 27);
             label4.TabIndex = 96;
@@ -224,7 +216,7 @@
             label5.AutoSize = true;
             label5.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
             label5.ForeColor = SystemColors.ActiveCaptionText;
-            label5.Location = new Point(55, 553);
+            label5.Location = new Point(43, 541);
             label5.Name = "label5";
             label5.Size = new Size(79, 27);
             label5.TabIndex = 97;
@@ -235,7 +227,7 @@
             label6.AutoSize = true;
             label6.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
             label6.ForeColor = SystemColors.ActiveCaptionText;
-            label6.Location = new Point(407, 449);
+            label6.Location = new Point(395, 436);
             label6.Name = "label6";
             label6.Size = new Size(52, 27);
             label6.TabIndex = 98;
@@ -246,7 +238,7 @@
             label7.AutoSize = true;
             label7.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
             label7.ForeColor = SystemColors.ActiveCaptionText;
-            label7.Location = new Point(384, 502);
+            label7.Location = new Point(372, 491);
             label7.Name = "label7";
             label7.Size = new Size(75, 27);
             label7.TabIndex = 99;
@@ -257,7 +249,7 @@
             label8.AutoSize = true;
             label8.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
             label8.ForeColor = SystemColors.ActiveCaptionText;
-            label8.Location = new Point(323, 555);
+            label8.Location = new Point(311, 544);
             label8.Name = "label8";
             label8.Size = new Size(136, 27);
             label8.TabIndex = 100;
@@ -268,7 +260,7 @@
             button2.BackColor = SystemColors.ButtonHighlight;
             button2.Font = new Font("Britannic Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             button2.ForeColor = SystemColors.ActiveCaptionText;
-            button2.Location = new Point(392, 600);
+            button2.Location = new Point(372, 588);
             button2.Name = "button2";
             button2.Size = new Size(123, 32);
             button2.TabIndex = 101;
@@ -281,7 +273,7 @@
             button1.BackColor = SystemColors.ButtonHighlight;
             button1.Font = new Font("Britannic Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             button1.ForeColor = SystemColors.ActiveCaptionText;
-            button1.Location = new Point(230, 600);
+            button1.Location = new Point(214, 588);
             button1.Name = "button1";
             button1.Size = new Size(123, 32);
             button1.TabIndex = 102;
@@ -293,7 +285,7 @@
             // 
             pictureBox3.BackgroundImage = (Image)resources.GetObject("pictureBox3.BackgroundImage");
             pictureBox3.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox3.Location = new Point(0, 2);
+            pictureBox3.Location = new Point(3, 7);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(46, 34);
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
@@ -320,7 +312,7 @@
             label9.AutoSize = true;
             label9.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
             label9.ForeColor = SystemColors.ActiveCaptionText;
-            label9.Location = new Point(133, 145);
+            label9.Location = new Point(125, 133);
             label9.Name = "label9";
             label9.Size = new Size(159, 27);
             label9.TabIndex = 105;
@@ -331,43 +323,61 @@
             label10.AutoSize = true;
             label10.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
             label10.ForeColor = SystemColors.ActiveCaptionText;
-            label10.Location = new Point(133, 310);
+            label10.Location = new Point(125, 298);
             label10.Name = "label10";
             label10.Size = new Size(160, 27);
             label10.TabIndex = 106;
             label10.Text = "Search Result";
             // 
+            // phonetoupdate
+            // 
+            phonetoupdate.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            phonetoupdate.Location = new Point(133, 553);
+            phonetoupdate.Margin = new Padding(2);
+            phonetoupdate.Name = "phonetoupdate";
+            phonetoupdate.Size = new Size(163, 32);
+            phonetoupdate.TabIndex = 107;
+            // 
+            // panel1
+            // 
+            panel1.BackColor = SystemColors.ActiveCaption;
+            panel1.Controls.Add(pictureBox1);
+            panel1.Controls.Add(label10);
+            panel1.Controls.Add(button2);
+            panel1.Controls.Add(button1);
+            panel1.Controls.Add(pictureBox3);
+            panel1.Controls.Add(label9);
+            panel1.Controls.Add(label8);
+            panel1.Controls.Add(label2);
+            panel1.Controls.Add(label7);
+            panel1.Controls.Add(pictureBox2);
+            panel1.Controls.Add(label6);
+            panel1.Controls.Add(label1);
+            panel1.Controls.Add(label5);
+            panel1.Controls.Add(search);
+            panel1.Controls.Add(label4);
+            panel1.Controls.Add(label3);
+            panel1.Location = new Point(12, 12);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(761, 629);
+            panel1.TabIndex = 108;
+            // 
             // updateCustomer
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(785, 645);
-            Controls.Add(label10);
-            Controls.Add(label9);
+            BackColor = SystemColors.ButtonHighlight;
+            ClientSize = new Size(785, 653);
+            Controls.Add(phonetoupdate);
             Controls.Add(SearchResult);
-            Controls.Add(pictureBox3);
-            Controls.Add(button1);
-            Controls.Add(button2);
-            Controls.Add(label8);
-            Controls.Add(label7);
-            Controls.Add(label6);
-            Controls.Add(label5);
-            Controls.Add(label4);
-            Controls.Add(label3);
-            Controls.Add(search);
-            Controls.Add(label1);
             Controls.Add(SSNupdate);
-            Controls.Add(pictureBox2);
-            Controls.Add(label2);
             Controls.Add(updatessn);
             Controls.Add(buildingtoupdate);
             Controls.Add(StreetToupdate);
             Controls.Add(CityToupdate);
-            Controls.Add(phonetoupdate);
             Controls.Add(nameToUpdate);
-            Controls.Add(pictureBox1);
             Controls.Add(updateGrid);
+            Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(2);
             Name = "updateCustomer";
@@ -379,6 +389,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)SearchResult).EndInit();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -387,7 +399,6 @@
         private DataGridView updateGrid;
         private PictureBox pictureBox1;
         private TextBox nameToUpdate;
-        private TextBox phonetoupdate;
         private TextBox CityToupdate;
         private TextBox StreetToupdate;
         private TextBox buildingtoupdate;
@@ -409,5 +420,7 @@
         private DataGridView SearchResult;
         private Label label9;
         private Label label10;
+        private TextBox phonetoupdate;
+        private Panel panel1;
     }
 }

@@ -49,5 +49,24 @@ namespace Bank_System
             delete.Show();
             this.Hide();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            updateBank obj = new updateBank();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Statistics obj = new Statistics();
+            obj.Show();
+            this.Hide();    
+        }
     }
 }

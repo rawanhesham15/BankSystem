@@ -17,7 +17,7 @@ namespace Bank_System
         {
             InitializeComponent();
         }
-        SqlConnection Con = new SqlConnection("Data Source=DESKTOP-FJ2DD2M\\SQLEXPRESS01;Initial Catalog=bankSystem;Integrated Security=True");
+        SqlConnection Con = new SqlConnection("Data Source=DESKTOP-28TECAI;Initial Catalog=BankingSystem2;Integrated Security=True");
 
         private void Statistics_Load(object sender, EventArgs e)
         {
@@ -38,13 +38,20 @@ namespace Bank_System
             var ds = new DataSet();
             sda.Fill(ds);
             branchBnk.DataSource = ds.Tables[0];
-            string Quy = "select city as 'city ', count(SSN) as 'Number of Customers' from branch , customer where bank.code = branch.code group by city";
+            string Quy = "select city , count(SSN) as 'number of customers' from customer\ngroup by city\nhaving count(SSN) = \n(\nselect  max(totalcus) as highest_total\n  from (\n       select city                               \n            , count(SSN) as totalcus       \n         from CUSTOMER                                    \n       group \n           by city                              \n       ) as t)";
             SqlDataAdapter sdaa = new SqlDataAdapter(Quy, Con);
             SqlCommandBuilder Buildd = new SqlCommandBuilder(sdaa);
             var dss = new DataSet();
             sdaa.Fill(dss);
-            customerbrnch.DataSource = dss.Tables[0];
+            citymax.DataSource = dss.Tables[0];
             Con.Close();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            AdminMenu obj = new AdminMenu();
+            obj.Show();
+            this.Hide();
         }
     }
 }

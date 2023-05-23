@@ -19,8 +19,29 @@ namespace Bank_System
         }
         SqlConnection Con = new SqlConnection("Data Source=DESKTOP-28TECAI;Initial Catalog=BankingSystem2;Integrated Security=True");
 
-
         private void Delete_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void Delete_Branch_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            AdminMenu obj = new AdminMenu();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void bAddbtn_Click(object sender, EventArgs e)
         {
             Con.Open();
             if (numtodelete.Text == "" || codetodelete.Text == "")
@@ -34,16 +55,6 @@ namespace Bank_System
             Con.Close();
             MessageBox.Show("Branch is deleted Successfully!!");
 
-        }
-
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
         }
     }
 }

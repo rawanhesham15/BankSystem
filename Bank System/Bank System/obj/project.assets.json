@@ -782,11 +782,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\BankSystem\\bankclone\\BankSystem\\Bank System\\Bank System\\Bank System.csproj",
+      "projectUniqueName": "C:\\Users\\marwa\\Downloads\\BankSystem-main\\BankSystem-main\\Bank System\\Bank System\\Bank System.csproj",
       "projectName": "Bank System",
-      "projectPath": "C:\\BankSystem\\bankclone\\BankSystem\\Bank System\\Bank System\\Bank System.csproj",
+      "projectPath": "C:\\Users\\marwa\\Downloads\\BankSystem-main\\BankSystem-main\\Bank System\\Bank System\\Bank System.csproj",
       "packagesPath": "C:\\Users\\marwa\\.nuget\\packages\\",
-      "outputPath": "C:\\BankSystem\\bankclone\\BankSystem\\Bank System\\Bank System\\obj\\",
+      "outputPath": "C:\\Users\\marwa\\Downloads\\BankSystem-main\\BankSystem-main\\Bank System\\Bank System\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\marwa\\AppData\\Roaming\\NuGet\\NuGet.Config",

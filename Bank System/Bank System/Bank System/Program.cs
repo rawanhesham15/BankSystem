@@ -13,7 +13,10 @@ namespace Bank_System
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Splash());
             //Application.Run(new Login());
-            Application.Run(new updateCustomer());
+            //Application.Run(new EmployeeMenu());
+            //Application.Run(new Statistics());
+            Application.Run(new Login());
+           // Application.Run(new AddBranch());
         }
     }
 }

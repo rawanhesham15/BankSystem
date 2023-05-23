@@ -40,8 +40,10 @@
             pictureBox2 = new PictureBox();
             role = new ComboBox();
             label4 = new Label();
+            pictureBox3 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -58,7 +60,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Britannic Bold", 26.25F, FontStyle.Regular, GraphicsUnit.Point);
             label1.ForeColor = SystemColors.ActiveCaptionText;
-            label1.Location = new Point(306, 21);
+            label1.Location = new Point(324, 32);
             label1.Name = "label1";
             label1.Size = new Size(422, 38);
             label1.TabIndex = 2;
@@ -67,7 +69,7 @@
             // 
             // userName
             // 
-            userName.Location = new Point(367, 258);
+            userName.Location = new Point(366, 270);
             userName.Name = "userName";
             userName.Size = new Size(300, 23);
             userName.TabIndex = 3;
@@ -78,7 +80,7 @@
             name.AutoSize = true;
             name.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
             name.ForeColor = SystemColors.ActiveCaptionText;
-            name.Location = new Point(367, 228);
+            name.Location = new Point(366, 240);
             name.Name = "name";
             name.Size = new Size(119, 27);
             name.TabIndex = 4;
@@ -90,7 +92,7 @@
             label3.AutoSize = true;
             label3.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
             label3.ForeColor = SystemColors.ActiveCaptionText;
-            label3.Location = new Point(367, 300);
+            label3.Location = new Point(366, 312);
             label3.Name = "label3";
             label3.Size = new Size(52, 27);
             label3.TabIndex = 6;
@@ -98,7 +100,7 @@
             // 
             // SSN
             // 
-            SSN.Location = new Point(367, 330);
+            SSN.Location = new Point(366, 342);
             SSN.Name = "SSN";
             SSN.Size = new Size(300, 23);
             SSN.TabIndex = 5;
@@ -109,7 +111,7 @@
             button1.BackColor = SystemColors.ButtonHighlight;
             button1.Font = new Font("Britannic Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             button1.ForeColor = SystemColors.ActiveCaptionText;
-            button1.Location = new Point(466, 382);
+            button1.Location = new Point(466, 390);
             button1.Name = "button1";
             button1.Size = new Size(123, 32);
             button1.TabIndex = 7;
@@ -121,7 +123,7 @@
             // 
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox1.Location = new Point(476, 73);
+            pictureBox1.Location = new Point(466, 84);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(81, 57);
             pictureBox1.TabIndex = 8;
@@ -133,9 +135,9 @@
             pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
             pictureBox2.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(746, 12);
+            pictureBox2.Location = new Point(752, 12);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(42, 29);
+            pictureBox2.Size = new Size(45, 35);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 9;
             pictureBox2.TabStop = false;
@@ -145,7 +147,7 @@
             // 
             role.FormattingEnabled = true;
             role.Items.AddRange(new object[] { "Admin", "Employee", "Cutomer" });
-            role.Location = new Point(367, 183);
+            role.Location = new Point(366, 195);
             role.Name = "role";
             role.Size = new Size(300, 23);
             role.TabIndex = 10;
@@ -155,11 +157,21 @@
             label4.AutoSize = true;
             label4.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
             label4.ForeColor = SystemColors.ActiveCaptionText;
-            label4.Location = new Point(367, 153);
+            label4.Location = new Point(366, 165);
             label4.Name = "label4";
             label4.Size = new Size(59, 27);
             label4.TabIndex = 11;
             label4.Text = "Role";
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.BackgroundImage = (Image)resources.GetObject("pictureBox3.BackgroundImage");
+            pictureBox3.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureBox3.Location = new Point(272, 20);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(63, 50);
+            pictureBox3.TabIndex = 97;
+            pictureBox3.TabStop = false;
             // 
             // Login
             // 
@@ -167,6 +179,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
             ClientSize = new Size(800, 450);
+            Controls.Add(pictureBox3);
             Controls.Add(label4);
             Controls.Add(role);
             Controls.Add(pictureBox2);
@@ -182,8 +195,10 @@
             Name = "Login";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Login";
+            Load += Login_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -201,5 +216,6 @@
         private PictureBox pictureBox2;
         private ComboBox role;
         private Label label4;
+        private PictureBox pictureBox3;
     }
 }

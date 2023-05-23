@@ -49,10 +49,12 @@
             bank = new Label();
             label4 = new Label();
             adminSSN = new TextBox();
+            branches = new DataGridView();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)branches).BeginInit();
             SuspendLayout();
             // 
             // bAddbtn
@@ -60,7 +62,7 @@
             bAddbtn.BackColor = SystemColors.ButtonHighlight;
             bAddbtn.Font = new Font("Britannic Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             bAddbtn.ForeColor = SystemColors.ActiveCaptionText;
-            bAddbtn.Location = new Point(347, 337);
+            bAddbtn.Location = new Point(352, 338);
             bAddbtn.Name = "bAddbtn";
             bAddbtn.Size = new Size(123, 32);
             bAddbtn.TabIndex = 60;
@@ -73,7 +75,7 @@
             label8.AutoSize = true;
             label8.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
             label8.ForeColor = SystemColors.ActiveCaptionText;
-            label8.Location = new Point(144, 175);
+            label8.Location = new Point(136, 172);
             label8.Name = "label8";
             label8.Size = new Size(52, 27);
             label8.TabIndex = 59;
@@ -84,7 +86,7 @@
             label7.AutoSize = true;
             label7.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
             label7.ForeColor = SystemColors.ActiveCaptionText;
-            label7.Location = new Point(475, 94);
+            label7.Location = new Point(467, 91);
             label7.Name = "label7";
             label7.Size = new Size(75, 27);
             label7.TabIndex = 58;
@@ -92,7 +94,7 @@
             // 
             // bstreettb
             // 
-            bstreettb.Location = new Point(481, 134);
+            bstreettb.Location = new Point(473, 131);
             bstreettb.Name = "bstreettb";
             bstreettb.Size = new Size(248, 23);
             bstreettb.TabIndex = 57;
@@ -102,7 +104,7 @@
             label6.AutoSize = true;
             label6.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
             label6.ForeColor = SystemColors.ActiveCaptionText;
-            label6.Location = new Point(481, 175);
+            label6.Location = new Point(473, 172);
             label6.Name = "label6";
             label6.Size = new Size(192, 27);
             label6.TabIndex = 56;
@@ -111,14 +113,14 @@
             // 
             // bbuilidingtb
             // 
-            bbuilidingtb.Location = new Point(481, 213);
+            bbuilidingtb.Location = new Point(473, 210);
             bbuilidingtb.Name = "bbuilidingtb";
             bbuilidingtb.Size = new Size(248, 23);
             bbuilidingtb.TabIndex = 55;
             // 
             // bcitytb
             // 
-            bcitytb.Location = new Point(144, 208);
+            bcitytb.Location = new Point(136, 205);
             bcitytb.Name = "bcitytb";
             bcitytb.Size = new Size(248, 23);
             bcitytb.TabIndex = 54;
@@ -128,7 +130,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
             label1.ForeColor = SystemColors.ActiveCaptionText;
-            label1.Location = new Point(144, 101);
+            label1.Location = new Point(136, 98);
             label1.Name = "label1";
             label1.Size = new Size(180, 27);
             label1.TabIndex = 51;
@@ -136,7 +138,7 @@
             // 
             // bnumtb
             // 
-            bnumtb.Location = new Point(144, 134);
+            bnumtb.Location = new Point(136, 131);
             bnumtb.Name = "bnumtb";
             bnumtb.Size = new Size(248, 23);
             bnumtb.TabIndex = 50;
@@ -183,7 +185,7 @@
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(46, 450);
+            panel1.Size = new Size(46, 539);
             panel1.TabIndex = 46;
             // 
             // pictureBox3
@@ -206,7 +208,7 @@
             // 
             // bcodetb
             // 
-            bcodetb.Location = new Point(144, 285);
+            bcodetb.Location = new Point(136, 282);
             bcodetb.Name = "bcodetb";
             bcodetb.Size = new Size(248, 23);
             bcodetb.TabIndex = 64;
@@ -217,7 +219,7 @@
             bank.AutoSize = true;
             bank.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
             bank.ForeColor = SystemColors.ActiveCaptionText;
-            bank.Location = new Point(144, 248);
+            bank.Location = new Point(136, 245);
             bank.Name = "bank";
             bank.Size = new Size(126, 27);
             bank.TabIndex = 65;
@@ -229,7 +231,7 @@
             label4.AutoSize = true;
             label4.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
             label4.ForeColor = SystemColors.ActiveCaptionText;
-            label4.Location = new Point(481, 255);
+            label4.Location = new Point(473, 252);
             label4.Name = "label4";
             label4.Size = new Size(141, 27);
             label4.TabIndex = 67;
@@ -238,16 +240,29 @@
             // 
             // adminSSN
             // 
-            adminSSN.Location = new Point(481, 285);
+            adminSSN.Location = new Point(473, 282);
             adminSSN.Name = "adminSSN";
             adminSSN.Size = new Size(248, 23);
             adminSSN.TabIndex = 66;
+            // 
+            // branches
+            // 
+            branches.BackgroundColor = SystemColors.ButtonHighlight;
+            branches.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            branches.Location = new Point(156, 387);
+            branches.Margin = new Padding(2);
+            branches.Name = "branches";
+            branches.RowHeadersWidth = 62;
+            branches.RowTemplate.Height = 35;
+            branches.Size = new Size(522, 132);
+            branches.TabIndex = 68;
             // 
             // AddBranch
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(800, 539);
+            Controls.Add(branches);
             Controls.Add(label4);
             Controls.Add(adminSSN);
             Controls.Add(bank);
@@ -274,6 +289,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)branches).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -298,5 +314,6 @@
         private Label label4;
         private TextBox adminSSN;
         private PictureBox pictureBox3;
+        private DataGridView branches;
     }
 }

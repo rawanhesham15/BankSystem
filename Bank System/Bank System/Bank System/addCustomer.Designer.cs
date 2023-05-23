@@ -57,6 +57,10 @@
             accNo = new TextBox();
             label12 = new Label();
             accType = new TextBox();
+            label13 = new Label();
+            bankCode = new TextBox();
+            label14 = new Label();
+            branchNum = new TextBox();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -71,7 +75,7 @@
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(46, 594);
+            panel1.Size = new Size(46, 674);
             panel1.TabIndex = 0;
             // 
             // pictureBox3
@@ -250,7 +254,7 @@
             cusAddBtn.BackColor = SystemColors.ButtonHighlight;
             cusAddBtn.Font = new Font("Britannic Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             cusAddBtn.ForeColor = SystemColors.ActiveCaptionText;
-            cusAddBtn.Location = new Point(372, 427);
+            cusAddBtn.Location = new Point(377, 486);
             cusAddBtn.Name = "cusAddBtn";
             cusAddBtn.Size = new Size(123, 32);
             cusAddBtn.TabIndex = 24;
@@ -262,12 +266,12 @@
             // 
             customerDGV.BackgroundColor = SystemColors.ButtonHighlight;
             customerDGV.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            customerDGV.Location = new Point(142, 478);
+            customerDGV.Location = new Point(142, 532);
             customerDGV.Margin = new Padding(2);
             customerDGV.Name = "customerDGV";
             customerDGV.RowHeadersWidth = 62;
             customerDGV.RowTemplate.Height = 35;
-            customerDGV.Size = new Size(584, 105);
+            customerDGV.Size = new Size(584, 131);
             customerDGV.TabIndex = 27;
             customerDGV.CellContentClick += customerDGV_CellContentClick;
             // 
@@ -343,11 +347,51 @@
             accType.Size = new Size(248, 23);
             accType.TabIndex = 34;
             // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            label13.ForeColor = SystemColors.ActiveCaptionText;
+            label13.Location = new Point(479, 417);
+            label13.Name = "label13";
+            label13.Size = new Size(126, 27);
+            label13.TabIndex = 39;
+            label13.Text = "Bank Code";
+            // 
+            // bankCode
+            // 
+            bankCode.Location = new Point(479, 447);
+            bankCode.Name = "bankCode";
+            bankCode.Size = new Size(248, 23);
+            bankCode.TabIndex = 38;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Britannic Bold", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            label14.ForeColor = SystemColors.ActiveCaptionText;
+            label14.Location = new Point(142, 417);
+            label14.Name = "label14";
+            label14.Size = new Size(180, 27);
+            label14.TabIndex = 37;
+            label14.Text = "Branch Number";
+            // 
+            // branchNum
+            // 
+            branchNum.Location = new Point(142, 447);
+            branchNum.Name = "branchNum";
+            branchNum.Size = new Size(248, 23);
+            branchNum.TabIndex = 36;
+            // 
             // addCustomer
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(830, 594);
+            ClientSize = new Size(830, 674);
+            Controls.Add(label13);
+            Controls.Add(bankCode);
+            Controls.Add(label14);
+            Controls.Add(branchNum);
             Controls.Add(label12);
             Controls.Add(accType);
             Controls.Add(label11);
@@ -419,5 +463,9 @@
         private PictureBox pictureBox3;
         private Label label12;
         private TextBox accType;
+        private Label label13;
+        private TextBox bankCode;
+        private Label label14;
+        private TextBox branchNum;
     }
 }

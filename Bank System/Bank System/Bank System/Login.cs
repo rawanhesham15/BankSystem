@@ -18,9 +18,7 @@ namespace Bank_System
             InitializeComponent();
         }
 
-        SqlConnection Con = new SqlConnection("Data Source=DESKTOP-28TECAI;Initial Catalog=BankingSystem2;Integrated Security=True");
-
-        private void label1_Click(object sender, EventArgs e)
+        SqlConnection Con = new SqlConnection("Data Source=DESKTOP-28TECAI;Initial Catalog=BankingSystem2;Integrated Security=True"); private void label1_Click(object sender, EventArgs e)
         {
 
         }
@@ -50,7 +48,7 @@ namespace Bank_System
                 else
                 {
                     Con.Open();
-                    SqlDataAdapter sda = new SqlDataAdapter("select count(*) from Admin where AdminSSN = '"+SSN.Text+"' and Name = '"+userName.Text+"'", Con);
+                    SqlDataAdapter sda = new SqlDataAdapter("select count(*) from Admin where AdminSSN = '" + SSN.Text + "' and Name = '" + userName.Text + "'", Con);
                     DataTable dt = new DataTable();
                     sda.Fill(dt);
                     if (dt.Rows[0][0].ToString() == "1")
@@ -69,7 +67,7 @@ namespace Bank_System
                     Con.Close();
                 }
             }
-            else if(role.SelectedIndex == 1)
+            else if (role.SelectedIndex == 1)
             {
                 if (userName.Text == "" || SSN.Text == "")
                 {
@@ -127,7 +125,7 @@ namespace Bank_System
             }
         }
 
-        
+
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
@@ -142,6 +140,11 @@ namespace Bank_System
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

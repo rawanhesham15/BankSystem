@@ -30,24 +30,30 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(updateBank));
             pictureBox1 = new PictureBox();
-            textBox3 = new TextBox();
-            textBox1 = new TextBox();
             codetoupdate = new TextBox();
-            search = new Button();
             updateGrid = new DataGridView();
-            textBox2 = new TextBox();
-            textBox4 = new TextBox();
-            textBox5 = new TextBox();
-            textBox6 = new TextBox();
-            textBox7 = new TextBox();
             updateStreet = new TextBox();
             updateName = new TextBox();
             updatecity = new TextBox();
             updatecode = new TextBox();
             updatebuild = new TextBox();
-            updatebtn = new Button();
+            pictureBox3 = new PictureBox();
+            label2 = new Label();
+            pictureBox2 = new PictureBox();
+            button1 = new Button();
+            label1 = new Label();
+            button2 = new Button();
+            label3 = new Label();
+            label4 = new Label();
+            label5 = new Label();
+            label6 = new Label();
+            label7 = new Label();
+            panel1 = new Panel();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)updateGrid).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // pictureBox1
@@ -55,199 +61,253 @@
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(849, 24);
-            pictureBox1.Margin = new Padding(4, 5, 4, 5);
+            pictureBox1.Location = new Point(543, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(73, 56);
+            pictureBox1.Size = new Size(46, 34);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 76;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
             // 
-            // textBox3
-            // 
-            textBox3.BackColor = SystemColors.ActiveCaption;
-            textBox3.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox3.Location = new Point(321, 50);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(307, 55);
-            textBox3.TabIndex = 77;
-            textBox3.Text = "Update Bank";
-            // 
-            // textBox1
-            // 
-            textBox1.BackColor = SystemColors.ActiveCaption;
-            textBox1.Font = new Font("Segoe UI Black", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox1.Location = new Point(52, 163);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(182, 45);
-            textBox1.TabIndex = 78;
-            textBox1.Text = "Bank Code:";
-            // 
             // codetoupdate
             // 
             codetoupdate.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            codetoupdate.Location = new Point(277, 163);
+            codetoupdate.Location = new Point(176, 98);
+            codetoupdate.Margin = new Padding(2);
             codetoupdate.Name = "codetoupdate";
-            codetoupdate.Size = new Size(109, 45);
+            codetoupdate.Size = new Size(176, 32);
             codetoupdate.TabIndex = 79;
-            // 
-            // search
-            // 
-            search.BackColor = SystemColors.ActiveCaption;
-            search.Font = new Font("Segoe UI Black", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            search.Location = new Point(482, 167);
-            search.Name = "search";
-            search.Size = new Size(112, 41);
-            search.TabIndex = 80;
-            search.Text = "Search";
-            search.UseVisualStyleBackColor = false;
-            search.Click += search_Click;
             // 
             // updateGrid
             // 
             updateGrid.BackgroundColor = SystemColors.ButtonFace;
             updateGrid.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            updateGrid.Location = new Point(52, 235);
+            updateGrid.Location = new Point(33, 141);
+            updateGrid.Margin = new Padding(2);
             updateGrid.Name = "updateGrid";
             updateGrid.RowHeadersWidth = 62;
             updateGrid.RowTemplate.Height = 35;
-            updateGrid.Size = new Size(836, 107);
+            updateGrid.Size = new Size(532, 115);
             updateGrid.TabIndex = 81;
-            // 
-            // textBox2
-            // 
-            textBox2.BackColor = SystemColors.ActiveCaption;
-            textBox2.Font = new Font("Segoe UI Black", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox2.Location = new Point(205, 504);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(259, 45);
-            textBox2.TabIndex = 82;
-            textBox2.Text = "Building Number:";
-            textBox2.TextChanged += textBox2_TextChanged;
-            // 
-            // textBox4
-            // 
-            textBox4.BackColor = SystemColors.ActiveCaption;
-            textBox4.Font = new Font("Segoe UI Black", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox4.Location = new Point(466, 432);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(113, 45);
-            textBox4.TabIndex = 83;
-            textBox4.Text = "Street:";
-            // 
-            // textBox5
-            // 
-            textBox5.BackColor = SystemColors.ActiveCaption;
-            textBox5.Font = new Font("Segoe UI Black", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox5.Location = new Point(52, 432);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(113, 45);
-            textBox5.TabIndex = 84;
-            textBox5.Text = "Name:";
-            textBox5.TextChanged += textBox5_TextChanged;
-            // 
-            // textBox6
-            // 
-            textBox6.BackColor = SystemColors.ActiveCaption;
-            textBox6.Font = new Font("Segoe UI Black", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox6.Location = new Point(466, 361);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(113, 45);
-            textBox6.TabIndex = 85;
-            textBox6.Text = "City;";
-            // 
-            // textBox7
-            // 
-            textBox7.BackColor = SystemColors.ActiveCaption;
-            textBox7.Font = new Font("Segoe UI Black", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox7.Location = new Point(52, 361);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(182, 45);
-            textBox7.TabIndex = 86;
-            textBox7.Text = "Bank Code:";
+            updateGrid.RowHeaderMouseClick += updateGrid_RowHeaderMouseClick;
             // 
             // updateStreet
             // 
             updateStreet.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            updateStreet.Location = new Point(630, 432);
+            updateStreet.Location = new Point(401, 321);
+            updateStreet.Margin = new Padding(2);
             updateStreet.Name = "updateStreet";
-            updateStreet.Size = new Size(178, 45);
+            updateStreet.Size = new Size(123, 32);
             updateStreet.TabIndex = 87;
+            updateStreet.TextChanged += updateStreet_TextChanged;
             // 
             // updateName
             // 
             updateName.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            updateName.Location = new Point(223, 432);
+            updateName.Location = new Point(172, 321);
+            updateName.Margin = new Padding(2);
             updateName.Name = "updateName";
-            updateName.Size = new Size(163, 45);
+            updateName.Size = new Size(115, 32);
             updateName.TabIndex = 88;
             // 
             // updatecity
             // 
             updatecity.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            updatecity.Location = new Point(630, 361);
+            updatecity.Location = new Point(401, 279);
+            updatecity.Margin = new Padding(2);
             updatecity.Name = "updatecity";
-            updatecity.Size = new Size(178, 45);
+            updatecity.Size = new Size(123, 32);
             updatecity.TabIndex = 89;
             // 
             // updatecode
             // 
             updatecode.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            updatecode.Location = new Point(274, 361);
+            updatecode.Location = new Point(172, 279);
+            updatecode.Margin = new Padding(2);
             updatecode.Name = "updatecode";
-            updatecode.Size = new Size(109, 45);
+            updatecode.Size = new Size(115, 32);
             updatecode.TabIndex = 90;
             // 
             // updatebuild
             // 
             updatebuild.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            updatebuild.Location = new Point(482, 504);
+            updatebuild.Location = new Point(292, 369);
+            updatebuild.Margin = new Padding(2);
             updatebuild.Name = "updatebuild";
-            updatebuild.Size = new Size(98, 45);
+            updatebuild.Size = new Size(123, 32);
             updatebuild.TabIndex = 91;
             // 
-            // updatebtn
+            // pictureBox3
             // 
-            updatebtn.BackColor = SystemColors.ActiveCaption;
-            updatebtn.Font = new Font("Segoe UI Black", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            updatebtn.Location = new Point(373, 608);
-            updatebtn.Name = "updatebtn";
-            updatebtn.Size = new Size(206, 71);
-            updatebtn.TabIndex = 93;
-            updatebtn.Text = "Update";
-            updatebtn.UseVisualStyleBackColor = false;
-            updatebtn.Click += updatebtn_Click;
+            pictureBox3.BackgroundImage = (Image)resources.GetObject("pictureBox3.BackgroundImage");
+            pictureBox3.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureBox3.Location = new Point(0, 4);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(46, 34);
+            pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox3.TabIndex = 94;
+            pictureBox3.TabStop = false;
+            pictureBox3.Click += pictureBox3_Click;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Britannic Bold", 26.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.ForeColor = SystemColors.ActiveCaptionText;
+            label2.Location = new Point(216, 16);
+            label2.Name = "label2";
+            label2.Size = new Size(212, 38);
+            label2.TabIndex = 95;
+            label2.Text = "Update Bank";
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
+            pictureBox2.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureBox2.Location = new Point(148, 4);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(73, 50);
+            pictureBox2.TabIndex = 96;
+            pictureBox2.TabStop = false;
+            // 
+            // button1
+            // 
+            button1.BackColor = SystemColors.ButtonHighlight;
+            button1.Font = new Font("Britannic Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            button1.ForeColor = SystemColors.ActiveCaptionText;
+            button1.Location = new Point(376, 85);
+            button1.Name = "button1";
+            button1.Size = new Size(123, 32);
+            button1.TabIndex = 97;
+            button1.Text = "Search";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Britannic Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.ForeColor = SystemColors.ActiveCaptionText;
+            label1.Location = new Point(51, 90);
+            label1.Name = "label1";
+            label1.Size = new Size(108, 23);
+            label1.TabIndex = 98;
+            label1.Text = "Bank Code";
+            // 
+            // button2
+            // 
+            button2.BackColor = SystemColors.ButtonHighlight;
+            button2.Font = new Font("Britannic Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            button2.ForeColor = SystemColors.ActiveCaptionText;
+            button2.Location = new Point(217, 410);
+            button2.Name = "button2";
+            button2.Size = new Size(123, 32);
+            button2.TabIndex = 99;
+            button2.Text = "Update";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Britannic Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.ForeColor = SystemColors.ActiveCaptionText;
+            label3.Location = new Point(51, 271);
+            label3.Name = "label3";
+            label3.Size = new Size(108, 23);
+            label3.TabIndex = 100;
+            label3.Text = "Bank Code";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Britannic Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.ForeColor = SystemColors.ActiveCaptionText;
+            label4.Location = new Point(339, 271);
+            label4.Name = "label4";
+            label4.Size = new Size(45, 23);
+            label4.TabIndex = 101;
+            label4.Text = "City";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Britannic Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label5.ForeColor = SystemColors.ActiveCaptionText;
+            label5.Location = new Point(98, 313);
+            label5.Name = "label5";
+            label5.Size = new Size(61, 23);
+            label5.TabIndex = 102;
+            label5.Text = "Name";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Britannic Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label6.ForeColor = SystemColors.ActiveCaptionText;
+            label6.Location = new Point(319, 313);
+            label6.Name = "label6";
+            label6.Size = new Size(65, 23);
+            label6.TabIndex = 103;
+            label6.Text = "Street";
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Britannic Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label7.ForeColor = SystemColors.ActiveCaptionText;
+            label7.Location = new Point(110, 361);
+            label7.Name = "label7";
+            label7.Size = new Size(165, 23);
+            label7.TabIndex = 104;
+            label7.Text = "Building Number";
+            // 
+            // panel1
+            // 
+            panel1.BackColor = SystemColors.ActiveCaption;
+            panel1.Controls.Add(button2);
+            panel1.Controls.Add(label6);
+            panel1.Controls.Add(label7);
+            panel1.Controls.Add(label4);
+            panel1.Controls.Add(pictureBox1);
+            panel1.Controls.Add(pictureBox3);
+            panel1.Controls.Add(label5);
+            panel1.Controls.Add(pictureBox2);
+            panel1.Controls.Add(label2);
+            panel1.Controls.Add(label3);
+            panel1.Controls.Add(label1);
+            panel1.Controls.Add(button1);
+            panel1.Location = new Point(12, 12);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(589, 456);
+            panel1.TabIndex = 105;
             // 
             // updateBank
             // 
-            AutoScaleDimensions = new SizeF(11F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(963, 691);
-            Controls.Add(updatebtn);
+            BackColor = SystemColors.ButtonHighlight;
+            ClientSize = new Size(613, 480);
             Controls.Add(updatebuild);
             Controls.Add(updatecode);
             Controls.Add(updatecity);
             Controls.Add(updateName);
             Controls.Add(updateStreet);
-            Controls.Add(textBox7);
-            Controls.Add(textBox6);
-            Controls.Add(textBox5);
-            Controls.Add(textBox4);
-            Controls.Add(textBox2);
             Controls.Add(updateGrid);
-            Controls.Add(search);
             Controls.Add(codetoupdate);
-            Controls.Add(textBox1);
-            Controls.Add(textBox3);
-            Controls.Add(pictureBox1);
+            Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(2);
             Name = "updateBank";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "updateBank";
+            Text = "update Bank";
+            Load += updateBank_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)updateGrid).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -255,21 +315,24 @@
         #endregion
 
         private PictureBox pictureBox1;
-        private TextBox textBox3;
-        private TextBox textBox1;
         private TextBox codetoupdate;
-        private Button search;
         private DataGridView updateGrid;
-        private TextBox textBox2;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private TextBox textBox6;
-        private TextBox textBox7;
         private TextBox updateStreet;
         private TextBox updateName;
         private TextBox updatecity;
         private TextBox updatecode;
         private TextBox updatebuild;
-        private Button updatebtn;
+        private PictureBox pictureBox3;
+        private Label label2;
+        private PictureBox pictureBox2;
+        private Button button1;
+        private Label label1;
+        private Button button2;
+        private Label label3;
+        private Label label4;
+        private Label label5;
+        private Label label6;
+        private Label label7;
+        private Panel panel1;
     }
 }

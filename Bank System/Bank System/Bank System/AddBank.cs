@@ -20,7 +20,6 @@ namespace Bank_System
         }
 
         SqlConnection Con = new SqlConnection("Data Source=DESKTOP-28TECAI;Initial Catalog=BankingSystem2;Integrated Security=True");
-
         private void DisplayBanks()
         {
             Con.Open();

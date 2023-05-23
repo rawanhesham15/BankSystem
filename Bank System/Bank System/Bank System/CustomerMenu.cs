@@ -26,5 +26,29 @@ namespace Bank_System
         {
 
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            Login obj = new Login();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            MakeLoan obj = new MakeLoan();
+            obj.Show();
+            this.Hide();
+        }
     }
 }

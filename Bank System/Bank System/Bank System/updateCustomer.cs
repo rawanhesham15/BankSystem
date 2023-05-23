@@ -21,7 +21,6 @@ namespace Bank_System
         }
 
         SqlConnection Con = new SqlConnection("Data Source=DESKTOP-28TECAI;Initial Catalog=BankingSystem2;Integrated Security=True");
-
         private void updateCustomer_Load(object sender, EventArgs e)
         {
 
@@ -40,10 +39,11 @@ namespace Bank_System
         private void Reset()
         {
             CityToupdate.Text = "";
-            //phonetoupdate.Text = "";
+            phonetoupdate.Text = "";
             nameToUpdate.Text = "";
             StreetToupdate.Text = "";
             buildingtoupdate.Text = "";
+            updatessn.Text = "";
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -71,21 +71,10 @@ namespace Bank_System
             {
                 try
                 {
-                    //Con.Open();
-                    //string Query = "select * from Customer where SSN = " + SSNupdate.Text;
-                    //SqlDataAdapter sda = new SqlDataAdapter(Query, Con);
-                    //SqlCommandBuilder Build = new SqlCommandBuilder(sda);
-                    //var ds = new DataSet();
-                    //sda.Fill(ds);
-                    //updateGrid.DataSource = ds.Tables[0];
-                    //SqlCommand cmd = new SqlCommand();
-                    //cmd.CommandText = "select * from customer where SSN = '"+ SSNupdate.Text + "'";
                     SqlDataAdapter sda = new SqlDataAdapter("select * from customer where SSN = '" + SSNupdate.Text + "'", Con);
                     DataTable dt = new DataTable();
                     sda.Fill(dt);
                     SearchResult.DataSource = dt;
-
-                    //Con.Close();
                 }
                 catch (Exception ex) { }
             }
@@ -96,17 +85,17 @@ namespace Bank_System
             try
             {
                 Con.Open();
-                SqlCommand cmd = new SqlCommand("Update Customer set Name = @AN , Street = @S , city = @City , buildingNo = @BN , SSN =  @SSN where SSN = @SSN ", Con);
+                SqlCommand cmd = new SqlCommand("Update Customer set Name = @AN , Street = @S , city = @City , buildingNo = @BN , phone = @phone where SSN = '" + updatessn.Text + "' ", Con);
                 cmd.Parameters.AddWithValue("@AN", nameToUpdate.Text);
                 cmd.Parameters.AddWithValue("@S", StreetToupdate.Text);
                 cmd.Parameters.AddWithValue("@City", CityToupdate.Text);
                 cmd.Parameters.AddWithValue("@BN", buildingtoupdate.Text);
-                // cmd.Parameters.AddWithValue("@PN", phonetoupdate.Text);
-                cmd.Parameters.AddWithValue("@SSN", updatessn.Text);
+                cmd.Parameters.AddWithValue("@phone", phonetoupdate.Text);
+
                 cmd.ExecuteNonQuery();
-                //  MessageBox.Show(nameToUpdate.Text, CityToupdate.Text+ buildingtoupdate.Text+ StreetToupdate.Text+ phonetoupdate.Text + updatessn.Text);
                 MessageBox.Show("Customer's Information Updated Successfully!!" + updatessn.Text);
                 Con.Close();
+                showCustomers();
                 Reset();
 
             }
@@ -119,28 +108,28 @@ namespace Bank_System
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string Query = "delete from Customer where SSN = " + SSNupdate.Text;
+            SqlCommand cmd = new SqlCommand("delete Customer where SSN=@SSN", Con);
+            SqlCommand cmd2 = new SqlCommand("delete Account where SSN=@SSN", Con);
+            SqlCommand cmd3 = new SqlCommand("delete Serve where SSN=@SSN", Con);
 
-            SqlDataAdapter sda = new SqlDataAdapter(Query, Con);
-            SqlCommandBuilder Build = new SqlCommandBuilder(sda);
-            var ds = new DataSet();
-            sda.Fill(ds);
+            Con.Open();
+            cmd.Parameters.AddWithValue("@SSN", SSNupdate.Text);
+            cmd2.Parameters.AddWithValue("@SSN", SSNupdate.Text);
+            cmd3.Parameters.AddWithValue("@SSN", SSNupdate.Text);
+
+            cmd3.ExecuteNonQuery();
+            cmd2.ExecuteNonQuery();
+            cmd.ExecuteNonQuery();
+            Con.Close();
+            MessageBox.Show("Customer Deleted Successfully!");
+            showCustomers();
+            Reset();
         }
 
         private void SearchResult_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
-            //DataGridView dgv = new DataGridView();
-            //dgv = SearchResult;
-            //updatessn.Text = dgv.CurrentRow.Cells[0].Value.ToString();
-            //nameToUpdate.Text = dgv.CurrentRow.Cells[2].Value.ToString();
-            //CityToupdate.Text = dgv.CurrentRow.Cells[3].Value.ToString();
-            //StreetToupdate.Text = dgv.CurrentRow.Cells[4].Value.ToString();
-            //buildingtoupdate.Text = dgv.CurrentRow.Cells[5].Value.ToString();
-            //phonetoupdate.Text = dgv.CurrentRow.Cells[6].Value.ToString();
-
-            //txt_Name.Text = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
-
             updatessn.Text = SearchResult.Rows[e.RowIndex].Cells[0].Value.ToString();
+            updatessn.ReadOnly = true;
             nameToUpdate.Text = SearchResult.Rows[e.RowIndex].Cells[2].Value.ToString();
             CityToupdate.Text = SearchResult.Rows[e.RowIndex].Cells[3].Value.ToString();
             StreetToupdate.Text = SearchResult.Rows[e.RowIndex].Cells[4].Value.ToString();
@@ -150,5 +139,10 @@ namespace Bank_System
 
         private void SearchResult_CellContentClick(object sender, DataGridViewCellEventArgs e)
         { }
+
+        private void CityToupdate_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
