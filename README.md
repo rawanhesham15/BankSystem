@@ -1,6 +1,7 @@
 # BankSystem
 
 Program for a Banking Management System with a database, implemented with c#.
+
 The system includes the following features:
 User management: User can sign in with SSN and Name as Employee, Admin, or Customer, employees can create new accounts, update account's details, and delete accounts.
 
